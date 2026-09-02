@@ -19,3 +19,35 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 .chip.selected{background:#dce8da;border-color:var(--sage);color:var(--deep)}.choice-btn.selected{background:#dce8da;border-color:var(--sage);color:var(--deep)}
 .want-grid button{background:var(--cream)}.want-grid button.selected{background:#dce8da;border-color:var(--sage);color:var(--deep)}
 @media(max-width:430px){.tool-section-title h3{font-size:22px}}
+
+/* Tool exercise visual consistency */
+.exercise-card{font-family:Arial,sans-serif;color:var(--ink)}
+.exercise-card h3,.exercise-card strong{font-family:Georgia,"Times New Roman",serif;color:var(--deep)}
+.exercise-intro{font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:var(--ink);margin:0 0 20px}
+.exercise-card .small{font-family:Arial,sans-serif;font-size:14px;line-height:1.55;color:var(--muted)}
+.exercise-card .tool-note{font-size:13px;line-height:1.5}
+.instruction-list p,.practice-sequence span{font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:var(--ink)}
+.practice-sequence>div{gap:12px;padding:14px 0}
+.practice-sequence strong{font-family:Arial,sans-serif;font-size:15px;font-weight:700;color:var(--deep);width:20px;flex:0 0 20px}
+.choice-row,.chip-grid{gap:8px}
+.chip,.choice-btn,.want-grid button{font-family:Arial,sans-serif;font-size:14px;line-height:1.25;color:var(--ink);background:var(--cream);border:1px solid var(--line)}
+.chip{padding:9px 12px;border-radius:999px}
+.choice-btn{padding:10px 13px;border-radius:12px}
+.choice-btn.wide{font-size:14px;padding:11px 12px;text-align:left}
+.chip.selected,.choice-btn.selected,.want-grid button.selected{background:#e7eee5;border-color:#bfd0bf;color:var(--deep)}
+.sort-grid{gap:12px}
+.sort-col{background:var(--cream);border:1px solid var(--line);padding:16px;border-radius:14px}
+.sort-col h3{font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.25;margin:0 0 11px;color:var(--deep)}
+.want-grid{gap:8px;margin:16px 0}
+.want-grid button{padding:12px 10px;border-radius:12px;min-height:46px}
+.stepper{gap:18px}
+.step{grid-template-columns:32px 1fr;gap:11px}
+.step>span{width:30px;height:30px;background:var(--cream-deep);color:var(--deep);font-family:Arial,sans-serif;font-size:14px}
+.step strong{font-size:17px;line-height:1.25}
+.step p{font-family:Arial,sans-serif;font-size:14px;line-height:1.5;color:var(--muted);margin:5px 0 0}
+.breath-box{background:#eef3ec;border:1px solid #dce5da;padding:24px 15px;border-radius:16px}
+.breath-box #breathPhase{font-family:Arial,sans-serif;font-size:13px;line-height:1.2;letter-spacing:.12em;font-weight:700;color:var(--deep)}
+.breath-count{font-family:Georgia,"Times New Roman",serif;font-size:56px;line-height:1.1;color:var(--deep);margin:9px}
+.breath-box p{font-family:Arial,sans-serif;font-size:14px;line-height:1.5;color:var(--muted);margin:8px 0 0}
+.exercise-card>.btn{font-family:Arial,sans-serif;font-size:14px;line-height:1.2;padding:11px 16px}
+@media(max-width:430px){.want-grid{grid-template-columns:1fr}.exercise-card{padding:20px}.step strong{font-size:16px}}
