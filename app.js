@@ -2559,207 +2559,137 @@ const KEY = "bty-entries-v1";
 let entries = JSON.parse(localStorage.getItem(KEY) || "{}");
 let currentDay = Number(localStorage.getItem("bty-current-day") || 1);
 let currentView = "home";
+let currentTool = null;
 let saveTimer = null;
+
+const PHASES = [
+  {start:1,end:45,name:"ARRIVING",title:"Arriving",description:"Safety, noticing, and gentle orientation"},
+  {start:46,end:105,name:"LISTENING",title:"Listening",description:"Needs, emotions, and inner signals"},
+  {start:106,end:180,name:"MAKING ROOM",title:"Making Room",description:"Patterns, protection, and permission"},
+  {start:181,end:255,name:"TURNING TOWARD",title:"Turning Toward",description:"Self-trust, boundaries, and authentic choice"},
+  {start:256,end:320,name:"RECONNECTING",title:"Reconnecting",description:"Desire, values, relationships, and aliveness"},
+  {start:321,end:365,name:"BACK TO YOURSELF",title:"Back To You",description:"Integration, choice, and continuing"}
+];
+
+const TOOLS = [
+  {id:"54321",section:"Ground Me",sectionIcon:"🌿",sectionDesc:"I'm overwhelmed. Help me come back to the present.",title:"5–4–3–2–1",desc:"A gentle sensory exercise for returning your attention to the here and now."},
+  {id:"feet",section:"Ground Me",sectionIcon:"🌿",sectionDesc:"I'm overwhelmed. Help me come back to the present.",title:"Feet on the Floor",desc:"A simple grounding practice that brings you into contact with the surface beneath you."},
+  {id:"feeling",section:"Help Me Listen",sectionIcon:"🫶",sectionDesc:"Something is happening inside me. Help me understand it.",title:"What Am I Feeling?",desc:"Name what may be present without needing to explain or fix it."},
+  {id:"body",section:"Help Me Listen",sectionIcon:"🫶",sectionDesc:"Something is happening inside me. Help me understand it.",title:"What Is My Body Telling Me?",desc:"Slow down and notice sensations, signals, and possible messages from your body."},
+  {id:"box",section:"Help Me Move Through It",sectionIcon:"🌊",sectionDesc:"I'm activated or stuck. Help me shift what's happening.",title:"Box Breathing",desc:"A paced breathing exercise using equal counts to create a little more steadiness."},
+  {id:"orient",section:"Help Me Move Through It",sectionIcon:"🌊",sectionDesc:"I'm activated or stuck. Help me shift what's happening.",title:"Orienting",desc:"Use your eyes and attention to notice that you are here, now, in your actual surroundings."},
+  {id:"pause",section:"Bring Me Back to Myself",sectionIcon:"🏡",sectionDesc:"I've lost touch with myself in this moment. Help me reconnect with me.",title:"Pause Before Responding",desc:"Create a little space between what happened and what you choose to do next."},
+  {id:"mine",section:"Bring Me Back to Myself",sectionIcon:"🏡",sectionDesc:"I've lost touch with myself in this moment. Help me reconnect with me.",title:"What Is Mine to Carry?",desc:"Separate what belongs to you from what belongs to someone else."},
+  {id:"want",section:"Bring Me Back to Myself",sectionIcon:"🏡",sectionDesc:"I've lost touch with myself in this moment. Help me reconnect with me.",title:"What Do I Want?",desc:"Notice your own preferences before they get crowded out by expectations or explanations."}
+];
 
 const app = document.getElementById("app");
 const toast = document.getElementById("toast");
 
-function saveEntries() {
-  localStorage.setItem(KEY, JSON.stringify(entries));
+function saveEntries(){ localStorage.setItem(KEY,JSON.stringify(entries)); }
+function showToast(msg){ toast.textContent=msg;toast.classList.add("show");clearTimeout(showToast.t);showToast.t=setTimeout(()=>toast.classList.remove("show"),1800); }
+function day(n){return DAYS[n-1];}
+function phaseForDay(n){return PHASES.find(p=>n>=p.start&&n<=p.end)||PHASES[0];}
+function escapeHtml(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function completedCount(){return Object.values(entries).filter(e=>e&&((e.response||"").trim()||(e.optionalResponse||"").trim())).length;}
+function nextIncomplete(){for(const d of DAYS){const e=entries[d.day];if(!e||(!(e.response||"").trim()&&!(e.optionalResponse||"").trim()))return d.day;}return 1;}
+function formatEntryDate(value){if(!value)return "";const parts=String(value).split("-").map(Number);if(parts.length!==3||parts.some(Number.isNaN))return "";const [year,month,dayNum]=parts;const dt=new Date(year,month-1,dayNum);if(dt.getFullYear()!==year||dt.getMonth()!==month-1||dt.getDate()!==dayNum)return "";return new Intl.DateTimeFormat(undefined,{year:"numeric",month:"long",day:"numeric"}).format(dt);}
+function icon(name){
+  const common='viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  const paths={
+    home:`<svg ${common}><path d="M3.5 10.5 12 3.8l8.5 6.7"/><path d="M5.5 9.8v9.2h13V9.8"/><path d="M9.5 19v-5.2h5V19"/></svg>`,
+    bookmark:`<svg ${common}><path d="M6.5 4.5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16l-5.5-3.5-5.5 3.5z"/></svg>`,
+    heart:`<svg ${common}><path d="M12 20.2S4.2 15.7 3.7 9.7C3.4 6.1 5.8 3.7 9 3.7c1.6 0 2.5.7 3 1.7.5-1 1.4-1.7 3-1.7 3.2 0 5.6 2.4 5.3 6-.5 6-8.3 10.5-8.3 10.5z"/></svg>`,
+    more:`<svg ${common}><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg>`,
+    arrow:`<svg ${common}><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>`,
+    back:`<svg ${common}><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg>`
+  };return paths[name]||"";
 }
-function showToast(msg) {
-  toast.textContent = msg; toast.classList.add("show");
-  clearTimeout(showToast.t); showToast.t=setTimeout(()=>toast.classList.remove("show"),1800);
-}
-function day(n) { return DAYS[n-1]; }
-function escapeHtml(s) {
-  return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-function completedCount() {
-  return Object.values(entries).filter(e => e && ((e.response||"").trim() || (e.optionalResponse||"").trim())).length;
-}
-function nextIncomplete() {
-  for (const d of DAYS) {
-    const e=entries[d.day];
-    if (!e || (!(e.response||"").trim() && !(e.optionalResponse||"").trim())) return d.day;
-  }
-  return 1;
-}
-function render() {
+function render(){
   document.querySelectorAll(".bottom-nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===currentView));
-  if(currentView==="home") renderHome();
-  if(currentView==="journal") renderJournal();
-  if(currentView==="journey") renderJourney();
-  if(currentView==="settings") renderSettings();
+  if(currentView==="home")renderHome();
+  else if(currentView==="journal")renderJournal();
+  else if(currentView==="tools")renderTools();
+  else if(currentView==="more")renderMore();
 }
-function renderHome() {
+function renderHome(){
   const d=day(nextIncomplete());
-  const e=entries[d.day]||{};
   app.innerHTML=`
-    <section class="hero">
-      <div class="eyebrow">A gentle place to come home to yourself</div>
+    <section class="hero home-hero">
       <h1>Back To Yourself</h1>
       <p class="quote">This journal does not ask you to be positive. It does not ask you to heal on schedule. It only asks you to meet yourself where you are.</p>
+      <p class="closing-line">Nothing to fix. Nothing to prove. Just notice.</p>
     </section>
     <section class="card phase-card">
       <div class="phase-meta">${escapeHtml(d.phase)} · Day ${d.day}</div>
       <h2>Today’s invitation</h2>
       <p class="prompt">${escapeHtml(d.prompt)}</p>
-      <button class="btn" onclick="openDay(${d.day})">Open Day ${d.day}</button>
-      <button class="btn ghost" onclick="openDay(${Math.max(1,d.day-1)})">Choose another day</button>
+      <div class="row"><button class="btn" onclick="openDay(${d.day})">Open Day ${d.day}</button><button class="btn secondary" onclick="currentView='journal';render()">Choose a day</button></div>
     </section>
-    <section class="card">
-      <h3>Your journey</h3>
-      <div class="progress"><div style="width:${Math.round(completedCount()/365*100)}%"></div></div>
+    <section class="card soft-card">
+      <h3>Your journal</h3>
       <p class="small">${completedCount()} of 365 days have writing saved. There is no requirement to finish every day.</p>
-    </section>
-    <section class="card">
-      <h3>A reminder</h3>
-      <p class="small">You can skip a prompt, repeat one, write one sentence, or stop. Nothing here needs to become a lesson.</p>
+      <div class="progress"><div style="width:${Math.round(completedCount()/365*100)}%"></div></div>
     </section>`;
 }
-function renderJournal() {
-  app.innerHTML=`
-    <section class="hero"><div class="eyebrow">365 undated days</div><h2>Journal</h2><p class="small">Choose any day. Your writing is saved on this device.</p></section>
-    <input class="search" id="search" placeholder="Search prompts or your entries…" oninput="filterDays(this.value)">
-    <div id="dayGrid" class="day-grid"></div>`;
-  renderDayGrid(DAYS);
+function renderJournal(){
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">365 undated days</div><h2>Journal</h2><p class="small">Choose any day. Your writing is saved on this device.</p></section><input class="search" id="search" placeholder="Search prompts or your entries…" oninput="filterDays(this.value)"><div id="phaseList"></div>`;
+  renderPhaseList(DAYS);
 }
-function renderDayGrid(list) {
-  const grid=document.getElementById("dayGrid"); if(!grid)return;
-  grid.innerHTML=list.map(d=>{
-    const e=entries[d.day]||{};
-    const done=!!((e.response||"").trim()||(e.optionalResponse||"").trim());
-    return `<button class="day-cell ${done?"done":""}" onclick="openDay(${d.day})"><span>${d.day}</span><small>${done?"saved":""}</small></button>`;
+function renderPhaseList(list){
+  const root=document.getElementById("phaseList");if(!root)return;
+  root.innerHTML=PHASES.map(p=>{
+    const days=list.filter(d=>d.day>=p.start&&d.day<=p.end);if(!days.length)return "";
+    return `<section class="phase-section"><div class="phase-heading"><div><div class="phase-number">${p.start}–${p.end}</div><h3>${p.title}</h3><p>${p.description}</p></div></div><div class="day-grid">${days.map(d=>{const e=entries[d.day]||{};const done=!!((e.response||"").trim()||(e.optionalResponse||"").trim());return `<button class="day-cell ${done?"done":""}" onclick="openDay(${d.day})"><span>${d.day}</span><small>${done?"saved":""}</small></button>`}).join("")}</div></section>`;
   }).join("");
 }
-function filterDays(q) {
-  q=q.toLowerCase();
-  renderDayGrid(DAYS.filter(d=>(d.prompt+" "+d.optional+" "+d.phase).toLowerCase().includes(q) ||
-    JSON.stringify(entries[d.day]||{}).toLowerCase().includes(q)));
+function filterDays(q){q=q.toLowerCase();renderPhaseList(DAYS.filter(d=>(d.prompt+" "+d.optional+" "+d.phase).toLowerCase().includes(q)||JSON.stringify(entries[d.day]||{}).toLowerCase().includes(q)));}
+function renderTools(){
+  const sections=[...new Set(TOOLS.map(t=>t.section))];
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Small practices for real moments</div><h2>Tools</h2><p class="small">You don't have to journal every time. Sometimes a few minutes of noticing, breathing, or sorting is enough.</p></section>${sections.map(section=>{const first=TOOLS.find(t=>t.section===section);return `<section class="tool-section"><div class="tool-section-title"><span class="section-icon">${first.sectionIcon}</span><div><h3>${section}</h3><p>${first.sectionDesc}</p></div></div><div class="tool-grid">${TOOLS.filter(t=>t.section===section).map(t=>`<button class="tool-card" onclick="openTool('${t.id}')"><span class="tool-card-title">${t.title}</span><span class="tool-card-desc">${t.desc}</span><span class="tool-arrow">${icon("arrow")}</span></button>`).join("")}</div></section>`}).join("")}`;
 }
-function renderJourney() {
-  const saved=DAYS.filter(d=>{
-    const e=entries[d.day]||{}; return (e.response||"").trim()||(e.optionalResponse||"").trim();
-  });
-  app.innerHTML=`
-    <section class="hero"><div class="eyebrow">Your pages</div><h2>Journey</h2><p class="small">Only days you have written are shown here.</p></section>
-    <section class="card">
-      <h3>${saved.length} saved ${saved.length===1?"entry":"entries"}</h3>
-      <div class="progress"><div style="width:${Math.round(saved.length/365*100)}%"></div></div>
-    </section>
-    <section class="card">
-      ${saved.length?saved.slice().reverse().map(d=>{
-        const e=entries[d.day]||{};
-        const text=(e.response||e.optionalResponse||"").replace(/\s+/g," ").slice(0,110);
-        return `<div class="list-item" onclick="openDay(${d.day})"><div class="list-main"><div class="list-title">Day ${d.day} · ${escapeHtml(d.phase)}</div><div class="list-preview">${escapeHtml(text)}</div></div><span>›</span></div>`;
-      }).join(""):`<div class="empty">Your first saved page will appear here.<br><br>There is no need to start at Day 1.</div>`}
-    </section>`;
-}
-function renderSettings() {
-  app.innerHTML=`
-    <section class="hero"><div class="eyebrow">Your space</div><h2>More</h2></section>
-    <section class="card">
-      <h3>Privacy</h3>
-      <p class="small">Your journal entries are stored in this browser on this device. They are not sent to a server by this app.</p>
-      <p class="small">For safety, export a backup before clearing browser data or changing devices.</p>
-    </section>
-    <section class="card">
-      <h3>Backup your journal</h3>
-      <p class="small">Export creates a JSON file containing your entries. Keep it somewhere private.</p>
-      <div class="row"><button class="btn" onclick="exportData()">Export entries</button><button class="btn secondary" onclick="document.getElementById('importFile').click()">Import backup</button></div>
-      <input id="importFile" type="file" accept=".json,application/json" style="display:none" onchange="importData(event)">
-    </section>
-    <section class="card">
-      <h3>Reset</h3>
-      <p class="small">This permanently removes the entries saved in this browser. Export first if you want a backup.</p>
-      <button class="btn secondary" onclick="resetEntries()">Delete all entries</button>
-    </section>
-    <section class="card">
-      <h3>About</h3>
-      <p class="small">Back To Yourself is an undated 365-day guided journal. No streaks. No forced positivity. No healing schedule.</p>
-    </section>`;
-}
-function openDay(n) {
-  currentDay=Math.min(365,Math.max(1,n)); localStorage.setItem("bty-current-day",currentDay);
-  currentView="day"; renderDay();
-}
-function formatEntryDate(value) {
-  if (!value) return "";
-  const parts = String(value).split("-").map(Number);
-  if (parts.length !== 3 || parts.some(Number.isNaN)) return "";
-  const [year, month, dayNum] = parts;
-  const dt = new Date(year, month - 1, dayNum);
-  if (dt.getFullYear() !== year || dt.getMonth() !== month - 1 || dt.getDate() !== dayNum) return "";
-  return new Intl.DateTimeFormat(undefined, { year: "numeric", month: "long", day: "numeric" }).format(dt);
-}
-function renderDay() {
-  const d=day(currentDay), e=entries[currentDay]||{};
-  const savedDate=formatEntryDate(e.date);
-  const dayLabel=savedDate ? `Day ${d.day} · ${savedDate}` : `Day ${d.day}`;
-  app.innerHTML=`
-    <section class="hero">
-      <div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div>
-      <div class="day-number">${escapeHtml(dayLabel)}</div>
-      <p class="small">Take this at your own pace.</p>
-    </section>
-    <section class="card">
-      <h3>Today’s invitation</h3>
-      <p class="prompt">${escapeHtml(d.prompt)}</p>
-      <label for="response">What would you like to write?</label>
-      <textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||"")}</textarea>
-      ${d.optional?`<div class="card" style="margin:18px 0 0;background:var(--paper)"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||"")}</textarea></div>`:""}
-      <label for="date">Date (optional)</label>
-      <input id="date" type="date" value="${escapeHtml(e.date||"")}">
-      <div class="save-status" id="saveStatus"></div>
-      <div class="navrow">
-        <button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?"disabled":""}>← Previous</button>
-        <button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?"disabled":""}>Next →</button>
-      </div>
-    </section>
-    <section class="center"><button class="btn ghost" onclick="currentView='journal';render()">Back to journal</button></section>`;
-  ["response","optionalResponse","date"].forEach(id=>{
-    const el=document.getElementById(id); if(el) el.addEventListener("input",()=>queueSave());
-  });
-}
-function queueSave() {
-  const status=document.getElementById("saveStatus"); if(status) status.textContent="Saving…";
-  clearTimeout(saveTimer); saveTimer=setTimeout(()=>{
-    const r=document.getElementById("response")?.value||"";
-    const o=document.getElementById("optionalResponse")?.value||"";
-    const date=document.getElementById("date")?.value||"";
-    entries[currentDay]={response:r,optionalResponse:o,date,updatedAt:new Date().toISOString()};
-    saveEntries(); if(status) status.textContent="Saved on this device.";
-  },350);
-}
-function exportData() {
-  const payload={app:"Back To Yourself",version:1,exportedAt:new Date().toISOString(),entries};
-  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
-  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
-  a.download="back-to-yourself-journal-backup.json"; a.click(); URL.revokeObjectURL(a.href);
-  showToast("Backup exported");
-}
-function importData(event) {
-  const file=event.target.files[0]; if(!file)return;
-  const reader=new FileReader();
-  reader.onload=()=>{
-    try {
-      const p=JSON.parse(reader.result);
-      if(!p.entries) throw new Error("Invalid backup");
-      entries=p.entries; saveEntries(); render(); showToast("Backup imported");
-    } catch(e) { alert("That file doesn't look like a Back To Yourself backup."); }
+function openTool(id){currentTool=id;renderTool(id);}
+function renderTool(id){
+  const t=TOOLS.find(x=>x.id===id);if(!t)return renderTools();
+  const bodies={
+    "54321":`<div class="exercise-step"><h3>5 things you can see</h3><textarea id="sense5" placeholder="Name them slowly…"></textarea></div><div class="exercise-step"><h3>4 things you can feel</h3><textarea id="sense4" placeholder="Notice contact, texture, temperature…"></textarea></div><div class="exercise-step"><h3>3 things you can hear</h3><textarea id="sense3" placeholder="Near or far, loud or soft…"></textarea></div><div class="exercise-step"><h3>2 things you can smell</h3><textarea id="sense2" placeholder="Or simply notice the air…"></textarea></div><div class="exercise-step"><h3>1 thing you can taste</h3><textarea id="sense1" placeholder="A sip, a breath, or the taste already here…"></textarea></div><button class="btn" onclick="finishTool('You are here. You noticed what is around you.')">Finish</button>`,
+    feet:`<div class="practice-list"><label class="check"><input type="checkbox"> Feel the surface beneath both feet.</label><label class="check"><input type="checkbox"> Notice the weight of your body settling downward.</label><label class="check"><input type="checkbox"> Press your feet gently into the floor for three breaths.</label><label class="check"><input type="checkbox"> Look around and name where you are.</label></div><div class="reflection-box"><label for="feetNote">What do you notice now?</label><textarea id="feetNote" placeholder="A word, sensation, or nothing at all…"></textarea></div><button class="btn" onclick="finishTool('You gave your body a moment of contact and orientation.')">Done</button>`,
+    feeling:`<p class="small">There may be more than one feeling. Choose what fits, or leave it unnamed.</p><div class="chip-grid">${['calm','sad','angry','anxious','overwhelmed','lonely','numb','relieved','frustrated','tender','uncertain','content'].map(x=>`<button class="chip" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div><label for="intensity">How strong does it feel?</label><input id="intensity" type="range" min="0" max="10" value="5"><div class="range-labels"><span>barely there</span><span>very strong</span></div><label for="feelingBody">Where do you notice it?</label><textarea id="feelingBody" placeholder="Chest, throat, stomach, shoulders, everywhere, nowhere…"></textarea><button class="btn" onclick="finishTool('You named what you could. That is enough for now.')">Finish</button>`,
+    body:`<label for="bodyArea">Where do you notice something?</label><input id="bodyArea" placeholder="For example: chest, jaw, belly, shoulders…"><label for="bodySensation">What is the sensation like?</label><textarea id="bodySensation" placeholder="Tight, warm, heavy, buzzing, empty, restless…"></textarea><label for="bodyMessage">If the sensation could speak without needing to be right, what might it be saying?</label><textarea id="bodyMessage" placeholder="Maybe it needs less, more, slower, space, movement, comfort…"></textarea><button class="btn" onclick="finishTool('You listened without demanding an answer.')">Finish</button>`,
+    box:`<div class="breath-box"><div id="breathPhase">Ready</div><div class="breath-count" id="breathCount">4</div><p id="breathHint">Inhale for 4 · hold 4 · exhale 4 · hold 4</p></div><button class="btn" id="breathBtn" onclick="startBoxBreathing()">Start</button><p class="small center" id="breathRounds">No need to force your breath. Stop if this feels uncomfortable.</p>`,
+    orient:`<p class="small">Let your eyes move slowly. You are not searching for anything special—just allowing your brain to take in the room.</p><div class="practice-list"><label class="check"><input type="checkbox"> Notice one color you like.</label><label class="check"><input type="checkbox"> Find the nearest doorway, window, or exit.</label><label class="check"><input type="checkbox"> Notice one object that is completely still.</label><label class="check"><input type="checkbox"> Look farther away, then closer again.</label><label class="check"><input type="checkbox"> Notice one thing that tells you you are safe enough in this moment.</label></div><button class="btn" onclick="finishTool('You oriented to the present moment.')">Done</button>`,
+    pause:`<div class="stepper" id="pauseStepper"><div class="step active"><span>1</span><div><strong>Pause</strong><p>Do you need to respond right now, or can this wait?</p></div></div><div class="step"><span>2</span><div><strong>Name it</strong><p>What are you feeling?</p><input id="pauseFeeling" placeholder="Just name it…"></div></div><div class="step"><span>3</span><div><strong>Separate event from story</strong><p>What actually happened? What meaning are you adding?</p><textarea id="pauseStory" placeholder="Event / story…"></textarea></div></div><div class="step"><span>4</span><div><strong>Choose</strong><p>If you respond, what would be honest without defending, explaining, fixing, or pleasing?</p><textarea id="pauseResponse" placeholder="I can say… or I can wait…"></textarea></div></div></div><button class="btn" onclick="finishTool('You made room between the moment and your response.')">Finish</button>`,
+    mine:`<p class="small">For each thought, decide where the responsibility actually belongs. You don't have to solve it.</p><div class="sort-grid"><div class="sort-col"><h3>Mine</h3><label class="check"><input type="checkbox"> My feelings</label><label class="check"><input type="checkbox"> My choices</label><label class="check"><input type="checkbox"> My boundaries</label><label class="check"><input type="checkbox"> How I communicate</label></div><div class="sort-col"><h3>Theirs / not mine</h3><label class="check"><input type="checkbox"> Their feelings</label><label class="check"><input type="checkbox"> Their choices</label><label class="check"><input type="checkbox"> Their reaction to my boundary</label><label class="check"><input type="checkbox"> What I cannot control</label></div></div><label for="putDown">What can you put down for now?</label><textarea id="putDown" placeholder="I don't have to carry…"></textarea><button class="btn" onclick="finishTool('You do not have to carry what is not yours.')">Finish</button>`,
+    want:`<p class="small">No explanation is required. You are only noticing your own signal.</p><div class="want-grid"><button onclick="chooseWant(this,'yes')">Yes</button><button onclick="chooseWant(this,'no')">No</button><button onclick="chooseWant(this,'maybe')">Not sure</button></div><label for="wantNote">What are you noticing you want—or don't want?</label><textarea id="wantNote" placeholder="Even a small preference counts…"></textarea><label for="wantFree">If nobody needed an explanation, what would you choose?</label><textarea id="wantFree" placeholder="You don't have to act on it. Just notice."></textarea><button class="btn" onclick="finishTool('You listened for your own preference without forcing a decision.')">Finish</button>`
   };
-  reader.readAsText(file);
+  app.innerHTML=`<section class="hero compact-hero"><button class="back-link" onclick="renderTools()">${icon('back')} <span>Back to Tools</span></button><div class="eyebrow">${t.section}</div><h2>${t.title}</h2><p class="small">${t.desc}</p></section><section class="card exercise-card">${bodies[id]||''}</section>`;
 }
-function resetEntries() {
-  if(confirm("Delete all saved journal entries from this device? This cannot be undone unless you have an export backup.")){
-    entries={};saveEntries();render();showToast("Entries deleted");
-  }
+function chooseWant(btn,value){document.querySelectorAll('.want-grid button').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');}
+function finishTool(msg){showToast(msg);}
+let breathTimer=null;
+function startBoxBreathing(){
+  const btn=document.getElementById('breathBtn');if(!btn)return;
+  if(breathTimer){clearInterval(breathTimer);breathTimer=null;btn.textContent='Start';document.getElementById('breathPhase').textContent='Ready';document.getElementById('breathCount').textContent='4';return;}
+  const phases=[['Inhale',4],['Hold',4],['Exhale',4],['Hold',4]];let phase=0,count=4,round=0;
+  btn.textContent='Stop';
+  const tick=()=>{document.getElementById('breathPhase').textContent=phases[phase][0];document.getElementById('breathCount').textContent=count;count--;if(count<1){phase++;if(phase>=4){phase=0;round++;document.getElementById('breathRounds').textContent=`Round ${round}. Keep going only if it feels comfortable.`;}count=4;}};
+  tick();breathTimer=setInterval(tick,1000);
 }
-document.querySelectorAll(".bottom-nav button").forEach(b=>b.addEventListener("click",()=>{currentView=b.dataset.view;render()}));
-document.getElementById("menuBtn").addEventListener("click",()=>{
-  let m=document.getElementById("menu"); if(!m){m=document.createElement("div");m.id="menu";m.className="menu";m.innerHTML='<button onclick="currentView=\'settings\';document.getElementById(\'menu\').classList.remove(\'open\');render()">Privacy & backup</button><button onclick="currentView=\'journal\';document.getElementById(\'menu\').classList.remove(\'open\');render()">Browse all days</button>';document.body.appendChild(m);}
-  m.classList.toggle("open");
-});
-if("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js").catch(()=>{});
+function renderMore(){
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Your space</div><h2>More</h2></section><section class="card"><h3>Privacy</h3><p class="small">Your journal entries are stored in this browser on this device. They are not sent to a server by this app.</p><p class="small">For safety, export a backup before clearing browser data or changing devices.</p></section><section class="card"><h3>Backup your journal</h3><p class="small">Export creates a JSON file containing your entries. Keep it somewhere private.</p><div class="row"><button class="btn" onclick="exportData()">Export entries</button><button class="btn secondary" onclick="document.getElementById('importFile').click()">Import backup</button></div><input id="importFile" type="file" accept=".json,application/json" style="display:none" onchange="importData(event)"></section><section class="card"><h3>Reset</h3><p class="small">This permanently removes the entries saved in this browser. Export first if you want a backup.</p><button class="btn secondary" onclick="resetEntries()">Delete all entries</button></section><section class="card"><h3>About</h3><p class="small">Back To Yourself is an undated 365-day guided journal. No streaks. No forced positivity. No healing schedule.</p></section>`;
+}
+function openDay(n){currentDay=Math.min(365,Math.max(1,n));localStorage.setItem('bty-current-day',currentDay);currentView='day';renderDay();}
+function renderDay(){
+  const d=day(currentDay),e=entries[currentDay]||{},savedDate=formatEntryDate(e.date),dayLabel=savedDate?`Day ${d.day} · ${savedDate}`:`Day ${d.day}`;
+  app.innerHTML=`<section class="hero compact-hero"><button class="back-link" onclick="currentView='journal';render()">${icon('back')} <span>Back to Journal</span></button><div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div><div class="day-number">${escapeHtml(dayLabel)}</div><p class="small">Take this at your own pace.</p></section><section class="card"><h3>Today’s invitation</h3><p class="prompt">${escapeHtml(d.prompt)}</p><label for="response">What would you like to write?</label><textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||'')}</textarea>${d.optional?`<div class="optional-card"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||'')}</textarea></div>`:''}<label for="date">Date (optional)</label><input id="date" type="date" value="${escapeHtml(e.date||'')}"><div class="save-status" id="saveStatus"></div><div class="navrow"><button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?'disabled':''}>← Previous</button><button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?'disabled':''}>Next →</button></div></section>`;
+  ['response','optionalResponse','date'].forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener('input',queueSave);});
+}
+function queueSave(){const status=document.getElementById('saveStatus');if(status)status.textContent='Saving…';clearTimeout(saveTimer);saveTimer=setTimeout(()=>{const r=document.getElementById('response')?.value||'',o=document.getElementById('optionalResponse')?.value||'',date=document.getElementById('date')?.value||'';entries[currentDay]={response:r,optionalResponse:o,date,updatedAt:new Date().toISOString()};saveEntries();if(status)status.textContent='Saved on this device.';},350);}
+function exportData(){const payload={app:'Back To Yourself',version:1,exportedAt:new Date().toISOString(),entries};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='back-to-yourself-journal-backup.json';a.click();URL.revokeObjectURL(a.href);showToast('Backup exported');}
+function importData(event){const file=event.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{try{const p=JSON.parse(reader.result);if(!p.entries)throw new Error('Invalid backup');entries=p.entries;saveEntries();render();showToast('Backup imported');}catch(e){alert("That file doesn't look like a Back To Yourself backup.");}};reader.readAsText(file);}
+function resetEntries(){if(confirm('Delete all saved journal entries from this device? This cannot be undone unless you have an export backup.')){entries={};saveEntries();render();showToast('Entries deleted');}}
+
+document.querySelectorAll('.bottom-nav button').forEach(b=>b.addEventListener('click',()=>{currentView=b.dataset.view;currentTool=null;render();}));
+document.querySelector('.brand').addEventListener('click',()=>{currentView='home';render();});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('service-worker.js').catch(()=>{});
 render();
