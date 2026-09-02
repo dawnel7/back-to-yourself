@@ -2605,13 +2605,28 @@ function icon(name){
     back:`<svg ${common}><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg>`
   };return paths[name]||"";
 }
+function updatePageBack(){
+  const el=document.getElementById('pageBack');
+  if(!el)return;
+  let label='', action='';
+  if(currentView==='journal'){label='Back to Today';action="currentView='home';render()";}
+  else if(currentView==='tools'){label='Back to Today';action="currentView='home';render()";}
+  else if(currentView==='more'){label='Back to Today';action="currentView='home';render()";}
+  else if(currentView==='day'){label='Back to Journal';action="currentView='journal';render()";}
+  else if(currentView==='tool'){label='Back to Tools';action="currentTool=null;currentView='tools';render()";}
+  if(label){el.innerHTML=`${icon('back')}<span>${label}</span>`;el.setAttribute('aria-label',label);el.setAttribute('onclick',action);el.classList.add('show');}
+  else{el.innerHTML='';el.classList.remove('show');el.removeAttribute('onclick');}
+}
 function render(){
   window.scrollTo({top:0,behavior:'auto'});
   document.querySelectorAll(".bottom-nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===currentView));
+  updatePageBack();
   if(currentView==="home")renderHome();
   else if(currentView==="journal")renderJournal();
   else if(currentView==="tools")renderTools();
   else if(currentView==="more")renderMore();
+  else if(currentView==="day")renderDay();
+  else if(currentView==="tool")renderTool(currentTool);
 }
 function renderHome(){
   const d=day(nextIncomplete());
@@ -2653,7 +2668,7 @@ function renderTools(){
   const sections=[...new Set(TOOLS.map(t=>t.section))];
   app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Small practices for real moments</div><h2>Tools</h2><p class="small">You don't have to journal every time. Sometimes a few minutes of noticing, breathing, or sorting is enough.</p></section>${sections.map(section=>{const first=TOOLS.find(t=>t.section===section);return `<section class="tool-section"><div class="tool-section-title"><h3>${section}</h3><p>${first.sectionDesc}</p></div><div class="tool-grid">${TOOLS.filter(t=>t.section===section).map(t=>`<button class="tool-card" onclick="openTool('${t.id}')"><span class="tool-card-title">${t.title}</span><span class="tool-card-desc">${t.desc}</span><span class="tool-arrow">${icon("arrow")}</span></button>`).join("")}</div></section>`}).join("")}`;
 }
-function openTool(id){currentTool=id;renderTool(id);}
+function openTool(id){currentTool=id;currentView='tool';render();}
 function renderTool(id){
   const t=TOOLS.find(x=>x.id===id);if(!t)return renderTools();
   const bodies={
@@ -2665,13 +2680,13 @@ function renderTool(id){
     orient:`<p class="exercise-intro">Let your eyes move slowly. You are not searching for anything special—just allowing your brain to take in the room.</p><div class="instruction-list"><p>Find one color that catches your attention.</p><p>Notice the nearest doorway, window, or exit.</p><p>Find one object that is completely still.</p><p>Look farther away, then closer again.</p><p>Notice one thing that tells you you are safe enough in this moment.</p></div><button class="btn" onclick="finishTool('You oriented to the present moment.')">Done</button>`,
     pause:`<div class="stepper clean-stepper"><div class="step active"><span>1</span><div><strong>Pause</strong><p>Do you need to respond right now, or can this wait?</p></div></div><div class="step"><span>2</span><div><strong>Name it</strong><p>What are you feeling? Just name it.</p></div></div><div class="step"><span>3</span><div><strong>Separate event from story</strong><p>What actually happened? What meaning are you adding?</p></div></div><div class="step"><span>4</span><div><strong>Choose</strong><p>If you respond, what would be honest without defending, explaining, fixing, or pleasing?</p></div></div></div><button class="btn" onclick="finishTool('You made room between the moment and your response.')">Done</button>`,
     mine:`<p class="exercise-intro">Tap each item that belongs to you. Then notice what does not.</p><div class="sort-grid"><div class="sort-col"><h3>Mine</h3>${['My feelings','My choices','My boundaries','How I communicate'].map(x=>`<button class="choice-btn wide" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div><div class="sort-col"><h3>Theirs / not mine</h3>${['Their feelings','Their choices','Their reaction to my boundary','What I cannot control'].map(x=>`<button class="choice-btn wide" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div></div><p class="small center tool-note">What can you put down for now? You do not have to solve it.</p><button class="btn" onclick="finishTool('You do not have to carry what is not yours.')">Done</button>`,
-    want:`<p class="exercise-intro">Think of the question you are facing. Before explaining, pleasing, or deciding, notice your own signal.</p><div class="want-grid"><button onclick="chooseWant(this,'yes')">Yes</button><button onclick="chooseWant(this,'no')">No</button><button onclick="chooseWant(this,'maybe')">Not sure</button></div><p class="small center tool-note">If nobody needed an explanation, what would you choose?</p><button class="btn" onclick="finishTool('You listened for your own preference without forcing a decision.')">Done</button>`
+    want:`<p class="exercise-intro">Hold the situation or decision in your mind. You do not need to explain it or decide anything yet.</p><p class="small">Now ask yourself: <strong>What do I want?</strong></p><div class="want-grid"><button onclick="chooseWant(this,'want')">I want this</button><button onclick="chooseWant(this,'dont')">I don't want this</button><button onclick="chooseWant(this,'unsure')">I don't know yet</button></div><p class="small center tool-note" id="wantHint">There is no wrong answer. Notice which response feels most like yours right now.</p><button class="btn" onclick="finishTool('You listened for your own preference without forcing a decision.')">Done</button>`
   };
-  app.innerHTML=`<section class="hero compact-hero"><button class="back-link" onclick="renderTools()">${icon('back')} <span>Back to Tools</span></button><div class="eyebrow">${t.section}</div><h2>${t.title}</h2><p class="small">${t.desc}</p></section><section class="card exercise-card">${bodies[id]||''}</section>`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">${t.section}</div><h2>${t.title}</h2><p class="small">${t.desc}</p></section><section class="card exercise-card">${bodies[id]||''}</section>`;
 }
-function chooseWant(btn,value){document.querySelectorAll('.want-grid button').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');}
-function selectChoice(btn){btn.parentElement.querySelectorAll('.choice-btn').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');}
-function finishTool(msg){showToast(msg);}
+function chooseWant(btn,value){document.querySelectorAll('.want-grid button').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');const hint=document.getElementById('wantHint');if(hint){hint.textContent=value==='want'?'Notice what it feels like to acknowledge that want.':value==='dont'?'Notice what it feels like to acknowledge that you do not want this.':'Not knowing yet is information too. You do not have to force an answer.';}}
+function selectChoice(btn){btn.classList.toggle('selected');}
+function finishTool(msg){showToast(msg,3000);clearTimeout(finishTool.t);finishTool.t=setTimeout(()=>{currentTool=null;currentView='tools';render();},3000);}
 let breathTimer=null;
 function startBoxBreathing(){
   const btn=document.getElementById('breathBtn');if(!btn)return;
@@ -2687,7 +2702,7 @@ function renderMore(){
 function openDay(n){currentDay=Math.min(365,Math.max(1,n));localStorage.setItem('bty-current-day',currentDay);currentView='day';renderDay();}
 function renderDay(){
   const d=day(currentDay),e=entries[currentDay]||{},savedDate=formatEntryDate(e.date),dayLabel=savedDate?`Day ${d.day} · ${savedDate}`:`Day ${d.day}`;
-  app.innerHTML=`<section class="hero compact-hero"><button class="back-link" onclick="currentView='journal';render()">${icon('back')} <span>Back to Journal</span></button><div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div><div class="day-number">${escapeHtml(dayLabel)}</div><p class="small">Take this at your own pace.</p></section><section class="card"><h3>Today’s invitation</h3><p class="prompt">${escapeHtml(d.prompt)}</p><label for="response">What would you like to write?</label><textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||'')}</textarea>${d.optional?`<div class="optional-card"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||'')}</textarea></div>`:''}<label for="date">Date (optional)</label><input id="date" type="date" value="${escapeHtml(e.date||'')}"><div class="save-status" id="saveStatus"></div><div class="navrow"><button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?'disabled':''}>← Previous</button><button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?'disabled':''}>Next →</button></div></section>`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div><div class="day-number">${escapeHtml(dayLabel)}</div><p class="small">Take this at your own pace.</p></section><section class="card"><h3>Today’s invitation</h3><p class="prompt">${escapeHtml(d.prompt)}</p><label for="response">What would you like to write?</label><textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||'')}</textarea>${d.optional?`<div class="optional-card"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||'')}</textarea></div>`:''}<label for="date">Date (optional)</label><input id="date" type="date" value="${escapeHtml(e.date||'')}"><div class="save-status" id="saveStatus"></div><div class="navrow"><button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?'disabled':''}>← Previous</button><button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?'disabled':''}>Next →</button></div></section>`;
   ['response','optionalResponse','date'].forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener('input',queueSave);});
 }
 function queueSave(){const status=document.getElementById('saveStatus');if(status)status.textContent='Saving…';clearTimeout(saveTimer);saveTimer=setTimeout(()=>{const r=document.getElementById('response')?.value||'',o=document.getElementById('optionalResponse')?.value||'',date=document.getElementById('date')?.value||'';entries[currentDay]={response:r,optionalResponse:o,date,updatedAt:new Date().toISOString()};saveEntries();if(status)status.textContent='Saved on this device.';},350);}
