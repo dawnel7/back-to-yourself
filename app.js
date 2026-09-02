@@ -2684,12 +2684,23 @@ function openDay(n) {
   currentDay=Math.min(365,Math.max(1,n)); localStorage.setItem("bty-current-day",currentDay);
   currentView="day"; renderDay();
 }
+function formatEntryDate(value) {
+  if (!value) return "";
+  const parts = String(value).split("-").map(Number);
+  if (parts.length !== 3 || parts.some(Number.isNaN)) return "";
+  const [year, month, dayNum] = parts;
+  const dt = new Date(year, month - 1, dayNum);
+  if (dt.getFullYear() !== year || dt.getMonth() !== month - 1 || dt.getDate() !== dayNum) return "";
+  return new Intl.DateTimeFormat(undefined, { year: "numeric", month: "long", day: "numeric" }).format(dt);
+}
 function renderDay() {
   const d=day(currentDay), e=entries[currentDay]||{};
+  const savedDate=formatEntryDate(e.date);
+  const dayLabel=savedDate ? `Day ${d.day} · ${savedDate}` : `Day ${d.day}`;
   app.innerHTML=`
     <section class="hero">
       <div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div>
-      <div class="day-number">Day ${d.day} · undated</div>
+      <div class="day-number">${escapeHtml(dayLabel)}</div>
       <p class="small">Take this at your own pace.</p>
     </section>
     <section class="card">
