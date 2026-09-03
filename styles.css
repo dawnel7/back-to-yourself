@@ -56,3 +56,43 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 .exercise-card{background:var(--cream);}
 .exercise-card>.btn{background:var(--deep);color:var(--cream);}
 .toast{color:var(--cream);}
+
+/* Final typography pass: keep tool exercises in the same warm, human typeface as the journal. */
+.exercise-card,
+.exercise-card p,
+.exercise-card span,
+.exercise-card strong,
+.exercise-card button,
+.exercise-card label,
+.exercise-card input,
+.exercise-card textarea,
+.exercise-card .small,
+.exercise-card .tool-note,
+.exercise-card .instruction-list p,
+.exercise-card .practice-sequence span,
+.exercise-card .practice-sequence strong,
+.exercise-card .chip,
+.exercise-card .choice-btn,
+.exercise-card .want-grid button,
+.exercise-card .step p,
+.exercise-card .step strong,
+.exercise-card .breath-box,
+.exercise-card .breath-box p,
+.exercise-card #breathPhase,
+.exercise-card .breath-count {
+  font-family: Georgia, "Times New Roman", serif;
+}
+.exercise-card .exercise-intro {font-size:17px;line-height:1.6;color:var(--ink)}
+.exercise-card .small {font-size:15px;line-height:1.55}
+.exercise-card .tool-note {font-size:14px;line-height:1.5}
+.exercise-card .instruction-list p,
+.exercise-card .practice-sequence span {font-size:16px;line-height:1.6}
+.exercise-card .practice-sequence strong {font-size:17px;font-weight:normal;color:var(--deep)}
+.exercise-card .chip,
+.exercise-card .choice-btn,
+.exercise-card .want-grid button {font-size:15px;line-height:1.35}
+.exercise-card .step strong {font-size:18px;line-height:1.3;font-weight:normal}
+.exercise-card .step p {font-size:15px;line-height:1.55}
+.exercise-card .breath-box #breathPhase {font-family:Georgia,"Times New Roman",serif;font-size:14px;letter-spacing:.08em;font-weight:normal}
+.exercise-card .breath-box p {font-size:15px}
+.exercise-card>.btn {font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:normal}
