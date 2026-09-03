@@ -20,42 +20,172 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 .want-grid button{background:var(--cream)}.want-grid button.selected{background:#dce8da;border-color:var(--sage);color:var(--deep)}
 @media(max-width:430px){.tool-section-title h3{font-size:22px}}
 
-/* Tool exercise visual consistency — modeled on Pause Before Responding */
-/* Use the same simple hierarchy across every exercise: serif for headings/labels,
-   clean sans-serif for instructions and controls. */
-.exercise-card{font-family:Arial,sans-serif;color:var(--ink);background:var(--cream);}
-.exercise-card h3,.exercise-card strong{font-family:Georgia,"Times New Roman",serif;color:var(--deep);}
-.exercise-card .exercise-intro{font-family:Arial,sans-serif;font-size:17px;line-height:1.6;color:var(--ink);margin:0 0 20px}
-.exercise-card .small{font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:var(--muted)}
-.exercise-card .tool-note{font-size:14px;line-height:1.55}
-.instruction-list p{font-family:Arial,sans-serif;font-size:16px;line-height:1.6;color:var(--ink);padding:14px 0;margin:0;border-bottom:1px solid var(--line)}
+/* Tool exercise typography and layout — Pause Before Responding model */
+.exercise-card{
+  font-family:Arial,sans-serif;
+  color:var(--ink);
+  background:var(--white);
+}
+.exercise-card .exercise-intro{
+  font-family:Arial,sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  color:var(--ink);
+  margin:0 0 20px;
+}
+.exercise-card .small,
+.exercise-card .tool-note{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.55;
+  color:var(--muted);
+}
+
+/* Numbered practices use the same visual rhythm as Pause Before Responding. */
+.practice-sequence{display:grid;gap:0;margin:0 0 20px}
+.practice-sequence>div{
+  display:grid;
+  grid-template-columns:32px 1fr;
+  gap:11px;
+  align-items:start;
+  padding:13px 0;
+  border-bottom:0;
+}
+.practice-sequence>div:last-child{padding-bottom:8px}
+.practice-sequence strong{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:var(--cream-deep);
+  display:grid;
+  place-items:center;
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  line-height:1;
+  font-weight:700;
+  color:var(--deep);
+}
+.practice-sequence span{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.55;
+  color:var(--muted);
+  padding-top:1px;
+}
+
+/* Simple instruction lists follow the same quiet body-text treatment. */
+.instruction-list{display:grid;gap:0;margin:0 0 20px}
+.instruction-list p{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.55;
+  color:var(--muted);
+  padding:13px 0;
+  margin:0;
+  border-bottom:1px solid var(--line);
+}
 .instruction-list p:last-child{border-bottom:0}
-.practice-sequence>div{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}
-.practice-sequence>div:last-child{border-bottom:0}
-.practice-sequence strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:700;color:var(--deep);width:22px;flex:0 0 22px;line-height:1.35}
-.practice-sequence span{font-family:Arial,sans-serif;font-size:16px;line-height:1.6;color:var(--ink)}
+
+/* Green serif labels are the visual anchor, just like Pause's step titles. */
+.exercise-card h3,
+.exercise-card .sort-col h3,
+.exercise-card strong.step-title{
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--deep);
+  font-weight:700;
+}
+.sort-grid{gap:12px;margin-top:4px}
+.sort-col{
+  background:var(--cream);
+  border:1px solid var(--line);
+  padding:16px;
+  border-radius:14px;
+}
+.sort-col h3{font-size:20px;line-height:1.25;margin:0 0 12px}
+
+/* Choice controls stay interactive, but their type is quiet and consistent. */
 .choice-row,.chip-grid{gap:8px}
-.chip,.choice-btn,.want-grid button{font-family:Arial,sans-serif;font-size:15px;line-height:1.35;color:var(--ink);background:var(--cream);border:1px solid var(--line)}
-.chip{padding:9px 12px;border-radius:999px}
+.chip,.choice-btn,.want-grid button{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.35;
+  color:var(--ink);
+  background:var(--cream);
+  border:1px solid var(--line);
+}
+.chip{padding:9px 13px;border-radius:999px}
 .choice-btn{padding:10px 13px;border-radius:12px}
 .choice-btn.wide{font-size:15px;padding:11px 12px;text-align:left}
-.chip.selected,.choice-btn.selected,.want-grid button.selected{background:#dce8da;border-color:var(--sage);color:var(--deep)}
-.sort-grid{gap:12px}
-.sort-col{background:var(--cream);border:1px solid var(--line);padding:16px;border-radius:14px}
-.sort-col h3{font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.3;margin:0 0 11px;color:var(--deep);font-weight:700}
+.chip.selected,.choice-btn.selected,.want-grid button.selected{
+  background:#dce8da;
+  border-color:var(--sage);
+  color:var(--deep);
+}
 .want-grid{gap:8px;margin:16px 0}
 .want-grid button{padding:12px 10px;border-radius:12px;min-height:46px}
+
+/* Pause Before Responding itself keeps all four steps equally visible. */
 .stepper{gap:18px;margin-bottom:20px}
 .step{display:grid;grid-template-columns:32px 1fr;gap:11px;opacity:1}
-.step>span{width:30px;height:30px;background:var(--cream-deep);color:var(--deep);font-family:Arial,sans-serif;font-size:14px;font-weight:700}
-.step strong{font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.3;font-weight:700;color:var(--deep)}
-.step p{font-family:Arial,sans-serif;font-size:15px;line-height:1.55;color:var(--muted);margin:5px 0 0}
-.breath-box{background:#eef3ec;border:1px solid #dce5da;padding:24px 15px;border-radius:16px}
-.breath-box #breathPhase{font-family:Arial,sans-serif;font-size:14px;line-height:1.2;letter-spacing:.08em;font-weight:700;color:var(--deep)}
-.breath-count{font-family:Georgia,"Times New Roman",serif;font-size:56px;line-height:1.1;color:var(--deep);margin:9px}
+.step>span{
+  width:30px;height:30px;
+  background:var(--cream-deep);
+  color:var(--deep);
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  font-weight:700;
+}
+.step strong{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:18px;
+  line-height:1.3;
+  font-weight:700;
+  color:var(--deep);
+}
+.step p{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.55;
+  color:var(--muted);
+  margin:5px 0 0;
+}
+
+/* Breathing keeps its special visual focus while using the same typography. */
+.breath-box{
+  background:#eef3ec;
+  border:1px solid #dce5da;
+  padding:24px 15px;
+  border-radius:16px;
+}
+.breath-box #breathPhase{
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  line-height:1.2;
+  letter-spacing:.08em;
+  font-weight:700;
+  color:var(--deep);
+}
+.breath-count{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:56px;
+  line-height:1.1;
+  color:var(--deep);
+  margin:9px;
+}
 .breath-box p{font-family:Arial,sans-serif;font-size:15px;line-height:1.5;color:var(--muted);margin:8px 0 0}
-.exercise-card>.btn{font-family:Arial,sans-serif;font-size:15px;line-height:1.2;padding:11px 16px;background:var(--deep);color:var(--cream)}
-@media(max-width:430px){.want-grid{grid-template-columns:1fr}.exercise-card{padding:20px}.step strong{font-size:18px}}
+.exercise-card>.btn{
+  font-family:Arial,sans-serif;
+  font-size:15px;
+  line-height:1.2;
+  padding:11px 16px;
+  background:var(--deep);
+  color:var(--cream);
+}
+@media(max-width:430px){
+  .want-grid{grid-template-columns:1fr}
+  .exercise-card{padding:20px}
+  .step strong{font-size:18px}
+}
 
 /* Gentle exercise surface: avoid the bright white flash when opening a tool. */
 .toast{color:var(--cream);}
