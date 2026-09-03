@@ -97,3 +97,32 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 
 /* Done button remains in the same quiet sans-serif treatment. */
 .exercise-card>.btn{font-family:Arial,sans-serif;font-size:15px;line-height:1.2;font-weight:400;}
+
+/* v10 — Match the exercise instruction text to the serif description above the card. */
+.exercise-card .instruction-list p,
+.exercise-card .practice-sequence span,
+.exercise-card .step p,
+.exercise-card .small,
+.exercise-card .tool-note,
+.exercise-card .breath-box p {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Keep the emphasized intro and labels as the stronger green Georgia treatment. */
+.exercise-card .exercise-intro,
+.exercise-card .step strong,
+.exercise-card .sort-col h3,
+.exercise-card .small strong {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--deep);
+}
+
+/* Interactive controls remain clean UI text rather than becoming part of the prose. */
+.exercise-card .chip,
+.exercise-card .choice-btn,
+.exercise-card .want-grid button,
+.exercise-card > .btn {
+  font-family: Arial, sans-serif;
+}
