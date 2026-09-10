@@ -126,3 +126,10 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 .exercise-card > .btn {
   font-family: Arial, sans-serif;
 }
+
+/* v13 — 5–4–3–2–1: remove the divider lines between prompts. */
+.circle-sequence>div,
+.circle-sequence>div+div,
+.circle-sequence>div:last-child{
+  border-bottom:0 !important;
+}
