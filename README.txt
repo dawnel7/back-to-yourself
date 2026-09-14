@@ -24,7 +24,8 @@ styles.css — design
 app.js — journal content + saving
 manifest.webmanifest — install metadata
 service-worker.js — offline support
-icon.svg — app icon
+icon.svg — phone app icon (deep green with cream line art)
+brand-logo.svg / brand-logo.png — online brand mark (cream with green line art)
 
 The source journal used to populate the app:
 Back_To_You_Journal_365_Day_Digital.docx
