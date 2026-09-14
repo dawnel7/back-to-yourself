@@ -3,2556 +3,2556 @@ const DAYS = [
     "day": 1,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is your current energy level, without judging it as good or bad?",
-    "optional": "What kind of rest would actually feel restful today?"
+    "prompt": "Notice your energy today without deciding whether it is enough.",
+    "optional": "What would help you stay curious about your energy instead of turning it into a problem?"
   },
   {
     "day": 2,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is your current energy level, without judging it as good or bad?",
-    "optional": "What is one thing around you that helps you feel oriented to the present?"
+    "prompt": "What feels most noticeable in your body right now?",
+    "optional": "What changes when you stay with that sensation without trying to change it?"
   },
   {
     "day": 3,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one small choice that would give you a little more room today?",
+    "prompt": "What do you see, hear, or feel that reminds you you are here?",
     "optional": ""
   },
   {
     "day": 4,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What do you notice in your body right now, without needing to change it?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What part of today feels settled, even if only slightly?",
+    "optional": "What seems to help that sense of settling grow?"
   },
   {
     "day": 5,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What have you already done today that took effort?",
-    "optional": "What tells your body that you are here, now, rather than somewhere else?"
+    "prompt": "What has already taken effort today that you might normally overlook?",
+    "optional": "What would it be like to acknowledge that effort instead of moving past it?"
   },
   {
     "day": 6,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What does your nervous system seem to be asking for: less, more, slower, or simply different?",
+    "prompt": "What kind of rest would actually restore you today?",
     "optional": ""
   },
   {
     "day": 7,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What kind of rest would actually feel restful today?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "Where in your body can you find even a small sense of ease?",
+    "optional": ""
   },
   {
     "day": 8,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "If you could make the next hour 5% gentler, what would you change?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What happens inside you when you give yourself permission to slow down?",
+    "optional": "What becomes easier to notice when you stop rushing?"
   },
   {
     "day": 9,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What do you notice in your body right now, without needing to change it?",
+    "prompt": "What is one thing around you that helps you feel oriented to the present?",
     "optional": ""
   },
   {
     "day": 10,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one thing around you that helps you feel oriented to the present?",
-    "optional": "What do you notice in your body right now, without needing to change it?"
+    "prompt": "If the next hour could be 5% gentler, what would you change?",
+    "optional": "What would make that small change feel supportive rather than like another task?"
   },
   {
     "day": 11,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What kind of rest would actually feel restful today?",
-    "optional": "What is one thing around you that helps you feel oriented to the present?"
+    "prompt": "What does your body seem to be asking for today: less, more, slower, or different?",
+    "optional": "What changes when you give yourself permission to need something different today?"
   },
   {
     "day": 12,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What does your nervous system seem to be asking for: less, more, slower, or simply different?",
+    "prompt": "What are you carrying right now that does not need to be solved today?",
     "optional": ""
   },
   {
     "day": 13,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels even a little easier in this moment?",
-    "optional": "Where do you notice tension, and can you meet it with curiosity rather than correction?"
+    "prompt": "When do you notice yourself rushing, even when nothing requires it?",
+    "optional": "What does your body seem to be asking you to notice beneath the urge to rush?"
   },
   {
     "day": 14,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What are you carrying today that does not need to be solved right now?",
-    "optional": "If you could make the next hour 5% gentler, what would you change?"
+    "prompt": "What happens when you pause long enough to notice your surroundings before moving on?",
+    "optional": "What do you notice when you stay with this for another moment?"
   },
   {
     "day": 15,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one thing around you that helps you feel oriented to the present?",
+    "prompt": "What helps your body recognize that this moment is different from another difficult moment?",
     "optional": ""
   },
   {
     "day": 16,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What have you already done today that took effort?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "Where do you feel tension today, and can you notice it without trying to make it disappear?",
+    "optional": "What happens when you make room for the tension without needing it to leave?"
   },
   {
     "day": 17,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What kind of rest would actually feel restful today?",
-    "optional": "What do you notice in your body right now, without needing to change it?"
+    "prompt": "What does your breathing feel like when you first pay attention to it?",
+    "optional": "What do you notice after giving your breathing a little attention?"
   },
   {
     "day": 18,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What tells your body that you are here, now, rather than somewhere else?",
+    "prompt": "What changes in your body when you feel even a little more comfortable?",
     "optional": ""
   },
   {
     "day": 19,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where in your body feels most neutral or ordinary today?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What is one ordinary thing today that your senses seem to enjoy?",
+    "optional": "Which part of that sensory experience draws you in most?"
   },
   {
     "day": 20,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels even a little easier in this moment?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "What tells you that you have reached your limit before your mind admits it?",
+    "optional": "What is the earliest sign that you are nearing that limit?"
   },
   {
     "day": 21,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one thing around you that helps you feel oriented to the present?",
+    "prompt": "What happens when you let yourself move at the pace your body prefers?",
     "optional": ""
   },
   {
     "day": 22,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one small choice that would give you a little more room today?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "Which part of your day feels most spacious, and what makes it that way?",
+    "optional": ""
   },
   {
     "day": 23,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What have you already done today that took effort?",
-    "optional": "What kind of rest would actually feel restful today?"
+    "prompt": "Which part of your day feels most demanding, and what do you notice in yourself there?",
+    "optional": "What would help you feel a little more supported in that part of the day?"
   },
   {
     "day": 24,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels even a little easier in this moment?",
+    "prompt": "What does “enough for today” feel like in your body?",
     "optional": ""
   },
   {
     "day": 25,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one small choice that would give you a little more room today?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What helps you settle after a moment of stimulation or stress?",
+    "optional": "What helps you return to a steadier place after stress?"
   },
   {
     "day": 26,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one small choice that would give you a little more room today?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "When you notice yourself bracing, what happens if you simply acknowledge it?",
+    "optional": "What do you imagine your body is preparing for when it braces?"
   },
   {
     "day": 27,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where in your body feels most neutral or ordinary today?",
+    "prompt": "What physical sensation lets you know you are becoming more present?",
     "optional": ""
   },
   {
     "day": 28,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels safe enough to notice, even if it is very small?",
-    "optional": "What feels even a little easier in this moment?"
+    "prompt": "What does your body do when you feel safe enough to exhale?",
+    "optional": ""
   },
   {
     "day": 29,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What is one thing around you that helps you feel oriented to the present?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What is one small comfort you can receive without earning it first?",
+    "optional": ""
   },
   {
     "day": 30,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "If you could make the next hour 5% gentler, what would you change?",
+    "prompt": "What happens when you notice a pleasant sensation without needing to hold onto it?",
     "optional": ""
   },
   {
     "day": 31,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where do you notice tension, and can you meet it with curiosity rather than correction?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "Where does your attention naturally go when you are not trying to control it?",
+    "optional": "What do you notice about your attention when you stop trying to direct it?"
   },
   {
     "day": 32,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "If your body could choose the pace today, what pace would it choose?",
-    "optional": "What is your current energy level, without judging it as good or bad?"
+    "prompt": "What does your body seem to know about your pace today?",
+    "optional": "What happens when you let your body set the pace without turning it into a rule?"
   },
   {
     "day": 33,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What have you already done today that took effort?",
+    "prompt": "What is one sound, texture, temperature, or color that brings you into the present?",
     "optional": ""
   },
   {
     "day": 34,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where in your body feels most neutral or ordinary today?",
-    "optional": "What feels even a little easier in this moment?"
+    "prompt": "What happens when you let a neutral moment simply be neutral?",
+    "optional": "What happens when you let the moment be exactly as it is?"
   },
   {
     "day": 35,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What are you carrying today that does not need to be solved right now?",
-    "optional": "If your body could choose the pace today, what pace would it choose?"
+    "prompt": "When something feels uncomfortable today, can you notice the difference between discomfort and danger?",
+    "optional": "What helps you remember that uncomfortable does not automatically mean unsafe?"
   },
   {
     "day": 36,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels safe enough to notice, even if it is very small?",
+    "prompt": "What does your body do when you anticipate something before it happens?",
     "optional": ""
   },
   {
     "day": 37,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where do you notice tension, and can you meet it with curiosity rather than correction?",
-    "optional": "What is one small choice that would give you a little more room today?"
+    "prompt": "What helps you come back after your attention has wandered?",
+    "optional": "What helps you return gently when your attention wanders?"
   },
   {
     "day": 38,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What tells your body that you are here, now, rather than somewhere else?",
-    "optional": "What are you carrying today that does not need to be solved right now?"
+    "prompt": "What would it feel like to meet your current state with curiosity instead of evaluation?",
+    "optional": "What changes when you approach yourself with curiosity instead of evaluation?"
   },
   {
     "day": 39,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "Where do you notice tension, and can you meet it with curiosity rather than correction?",
+    "prompt": "What small signal from your body have you been noticing more often lately?",
     "optional": ""
   },
   {
     "day": 40,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "If your body could choose the pace today, what pace would it choose?",
-    "optional": "If you could make the next hour 5% gentler, what would you change?"
+    "prompt": "What helps you feel more settled after being around other people?",
+    "optional": "What helps your body settle again after being around other people?"
   },
   {
     "day": 41,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels safe enough to notice, even if it is very small?",
-    "optional": "What is one small choice that would give you a little more room today?"
+    "prompt": "What happens inside you when you stop trying to predict what comes next?",
+    "optional": "What do you notice when you let the future remain unknown for a moment?"
   },
   {
     "day": 42,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What do you notice in your body right now, without needing to change it?",
+    "prompt": "What part of your day could hold a little more quiet?",
     "optional": ""
   },
   {
     "day": 43,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What are you carrying today that does not need to be solved right now?",
-    "optional": "What does your nervous system seem to be asking for: less, more, slower, or simply different?"
+    "prompt": "What have you learned about what helps you regulate from the first weeks of paying attention?",
+    "optional": "Which practice from these first weeks feels most worth keeping?"
   },
   {
     "day": 44,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What kind of rest would actually feel restful today?",
-    "optional": "What is one thing around you that helps you feel oriented to the present?"
+    "prompt": "Which signals from your body are becoming easier to recognize?",
+    "optional": "What makes that signal easier to recognize?"
   },
   {
     "day": 45,
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
-    "prompt": "What feels even a little easier in this moment?",
-    "optional": ""
+    "prompt": "What would you like to keep practicing as you move into listening more deeply?",
+    "optional": "What would you like to carry with you as you begin listening more closely?"
   },
   {
     "day": 46,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you tolerating that you do not actually have to tolerate today?",
-    "optional": "Where are you saying yes when your body is saying maybe or no?"
+    "prompt": "What feeling is closest to the surface for you today?",
+    "optional": "What might that feeling be helping you notice, without requiring you to act on it?"
   },
   {
     "day": 47,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you noticing yourself wanting to move toward or away from?",
-    "optional": "What makes you feel more like yourself?"
+    "prompt": "If you could name three feelings present right now, what would they be?",
+    "optional": "Which feeling seems to need the most attention right now?"
   },
   {
     "day": 48,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would a compassionate interpretation of your reaction be?",
+    "prompt": "Where do you notice your feelings in your body?",
     "optional": ""
   },
   {
     "day": 49,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you noticing yourself wanting to move toward or away from?",
-    "optional": "Where are you saying yes when your body is saying maybe or no?"
+    "prompt": "What emotion tends to arrive first when something feels uncertain?",
+    "optional": "What do you notice underneath or alongside that emotion?"
   },
   {
     "day": 50,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel more like yourself?",
-    "optional": "What are you tolerating that you do not actually have to tolerate today?"
+    "prompt": "What happens when you name a feeling without explaining why it is there?",
+    "optional": "What becomes possible when you let the feeling be true without needing to justify it?"
   },
   {
     "day": 51,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like to understand about yourself today?",
+    "prompt": "Which feeling is easiest for you to acknowledge, and which is harder?",
     "optional": ""
   },
   {
     "day": 52,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What need might be underneath that emotion?",
-    "optional": "What does 'enough' look like for you today?"
+    "prompt": "What feeling have you been tempted to talk yourself out of?",
+    "optional": "What happens when you let that feeling be present without needing to explain it?"
   },
   {
     "day": 53,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like to understand about yourself today?",
-    "optional": "What is one desire you can acknowledge without acting on it?"
+    "prompt": "What does sadness feel like in your body when you let it be there?",
+    "optional": "What does your body need while that sadness is present?"
   },
   {
     "day": 54,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "Where are you saying yes when your body is saying maybe or no?",
+    "prompt": "What does anxiety feel like before your mind gives it a story?",
     "optional": ""
   },
   {
     "day": 55,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel smaller, quieter, or less free?",
-    "optional": "What would support look like if it did not require you to explain everything?"
+    "prompt": "What does anger feel like before you decide what it means?",
+    "optional": "What might the anger be protecting or pointing toward?"
   },
   {
     "day": 56,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would a compassionate interpretation of your reaction be?",
-    "optional": "What are you noticing yourself wanting to move toward or away from?"
+    "prompt": "What does relief feel like when you allow yourself to actually receive it?",
+    "optional": "What helps you let yourself receive that relief?"
   },
   {
     "day": 57,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like someone else to understand about your experience today?",
+    "prompt": "What emotion might be underneath a reaction that surprised you?",
     "optional": ""
   },
   {
     "day": 58,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "Where are you saying yes when your body is saying maybe or no?",
-    "optional": "What need might be underneath that emotion?"
+    "prompt": "What need might be living underneath something you are feeling today?",
+    "optional": "What does the feeling tell you about the need beneath it?"
   },
   {
     "day": 59,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What boundary might your body already be trying to communicate?",
-    "optional": "What makes you feel smaller, quieter, or less free?"
+    "prompt": "What do you wish someone understood about what you are feeling?",
+    "optional": ""
   },
   {
     "day": 60,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would support look like if it did not require you to explain everything?",
+    "prompt": "What are you wanting right now, even if the answer feels inconvenient?",
     "optional": ""
   },
   {
     "day": 61,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would support look like if it did not require you to explain everything?",
-    "optional": "What boundary might your body already be trying to communicate?"
+    "prompt": "What are you needing that you have been reluctant to name?",
+    "optional": "What becomes clearer when you give that need some room?"
   },
   {
     "day": 62,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would a compassionate interpretation of your reaction be?",
-    "optional": "What need might be underneath that emotion?"
+    "prompt": "What happens in your body when a need is met, even in a small way?",
+    "optional": "What changes in your body when you recognize that a need has been met?"
   },
   {
     "day": 63,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you tolerating that you do not actually have to tolerate today?",
+    "prompt": "Which needs do you tend to dismiss as unnecessary?",
     "optional": ""
   },
   {
     "day": 64,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What boundary might your body already be trying to communicate?",
-    "optional": "What would you like to understand about yourself today?"
+    "prompt": "What makes it difficult for you to recognize your own needs?",
+    "optional": "What makes it harder to give your own needs the same legitimacy you give other people’s?"
   },
   {
     "day": 65,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would a compassionate interpretation of your reaction be?",
-    "optional": "What boundary might your body already be trying to communicate?"
+    "prompt": "What do you notice when you ask yourself, “What do I need?” and wait?",
+    "optional": "What do you notice when you give yourself time to answer?"
   },
   {
     "day": 66,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "Where are you saying yes when your body is saying maybe or no?",
+    "prompt": "What desire have you been minimizing because it seems impractical?",
     "optional": ""
   },
   {
     "day": 67,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What does 'enough' look like for you today?",
-    "optional": "Where are you saying yes when your body is saying maybe or no?"
+    "prompt": "What do you notice when you distinguish wanting something from needing it?",
+    "optional": "What do you notice in your body when you name what you want?"
   },
   {
     "day": 68,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What does 'enough' look like for you today?",
-    "optional": "What makes you feel smaller, quieter, or less free?"
+    "prompt": "What feeling comes up when you imagine asking directly for what you need?",
+    "optional": ""
   },
   {
     "day": 69,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like someone else to understand about your experience today?",
+    "prompt": "What do you fear might happen if you let someone know what you really need?",
     "optional": ""
   },
   {
     "day": 70,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like to understand about yourself today?",
-    "optional": "What feeling have you been tempted to talk yourself out of?"
+    "prompt": "What is your body saying before your mind starts negotiating with it?",
+    "optional": "What do you notice in your body before your mind starts negotiating with the signal?"
   },
   {
     "day": 71,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "Where are you saying yes when your body is saying maybe or no?",
-    "optional": "What does 'enough' look like for you today?"
+    "prompt": "When your body says no, what thoughts tend to argue with it?",
+    "optional": "What would it take to hear a no without immediately arguing with it?"
   },
   {
     "day": 72,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel smaller, quieter, or less free?",
+    "prompt": "When your body says yes, what helps you trust that signal?",
     "optional": ""
   },
   {
     "day": 73,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What need might be underneath that emotion?",
-    "optional": "What would support look like if it did not require you to explain everything?"
+    "prompt": "What sensations tell you that you are approaching overwhelm?",
+    "optional": "What is the earliest sign that tells you you are approaching overwhelm?"
   },
   {
     "day": 74,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What boundary might your body already be trying to communicate?",
-    "optional": "What is one desire you can acknowledge without acting on it?"
+    "prompt": "What sensations tell you that you are moving toward ease?",
+    "optional": "What helps you recognize ease without needing to hold onto it?"
   },
   {
     "day": 75,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What emotion is closest to the surface today?",
-    "optional": ""
+    "prompt": "What happens when you stay with a feeling for one minute without fixing it?",
+    "optional": "What changes when you stay with the feeling instead of fixing it?"
   },
   {
     "day": 76,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What is one desire you can acknowledge without acting on it?",
-    "optional": "Where are you saying yes when your body is saying maybe or no?"
+    "prompt": "Which emotions do you tend to turn into thoughts instead of allowing yourself to feel?",
+    "optional": ""
   },
   {
     "day": 77,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel more like yourself?",
-    "optional": "What would support look like if it did not require you to explain everything?"
+    "prompt": "Which emotions do you tend to act on before understanding them?",
+    "optional": ""
   },
   {
     "day": 78,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What emotion is closest to the surface today?",
+    "prompt": "What is the difference between feeling something strongly and needing to act on it?",
     "optional": ""
   },
   {
     "day": 79,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel smaller, quieter, or less free?",
-    "optional": "What would you like to understand about yourself today?"
+    "prompt": "What feeling has been asking for your attention lately?",
+    "optional": ""
   },
   {
     "day": 80,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you tolerating that you do not actually have to tolerate today?",
-    "optional": "What boundary might your body already be trying to communicate?"
+    "prompt": "What might that feeling want you to notice rather than do?",
+    "optional": ""
   },
   {
     "day": 81,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What feeling have you been tempted to talk yourself out of?",
+    "prompt": "What happens when you allow two seemingly opposite feelings to exist together?",
     "optional": ""
   },
   {
     "day": 82,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel more like yourself?",
-    "optional": "What would support look like if it did not require you to explain everything?"
+    "prompt": "Can you feel both care and frustration toward the same person or situation?",
+    "optional": "What does each feeling seem to need from you?"
   },
   {
     "day": 83,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What need might be underneath that emotion?",
-    "optional": "Where are you saying yes when your body is saying maybe or no?"
+    "prompt": "What does uncertainty feel like when you do not immediately resolve it?",
+    "optional": "What helps you stay present when you do not have an answer yet?"
   },
   {
     "day": 84,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What emotion is closest to the surface today?",
-    "optional": ""
+    "prompt": "What do you notice when you separate a feeling from the story attached to it?",
+    "optional": "What becomes clearer when you separate the feeling from the meaning you have attached to it?"
   },
   {
     "day": 85,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "Where are you saying yes when your body is saying maybe or no?",
-    "optional": "What would you like someone else to understand about your experience today?"
+    "prompt": "What is the story your mind tells when you feel rejected or overlooked?",
+    "optional": "What part of that story feels familiar from other experiences?"
   },
   {
     "day": 86,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like someone else to understand about your experience today?",
-    "optional": "What makes you feel more like yourself?"
+    "prompt": "What else might be true alongside that story?",
+    "optional": "What else could be true without requiring you to dismiss the original story?"
   },
   {
     "day": 87,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel more like yourself?",
+    "prompt": "What changes when you ask, “What do I know, and what am I assuming?”",
     "optional": ""
   },
   {
     "day": 88,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What is one desire you can acknowledge without acting on it?",
-    "optional": "What would support look like if it did not require you to explain everything?"
+    "prompt": "What feeling becomes clearer when you stop judging it?",
+    "optional": "What becomes easier to hear when you stop deciding whether the feeling is acceptable?"
   },
   {
     "day": 89,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you tolerating that you do not actually have to tolerate today?",
-    "optional": "What need might be underneath that emotion?"
+    "prompt": "What happens when you let yourself say, “Of course I feel this,” without deciding it is justified?",
+    "optional": "What would it be like to trust that the feeling does not need to be justified to be real?"
   },
   {
     "day": 90,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would support look like if it did not require you to explain everything?",
+    "prompt": "What emotion do you most often hide from other people?",
     "optional": ""
   },
   {
     "day": 91,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you tolerating that you do not actually have to tolerate today?",
-    "optional": "What would you like someone else to understand about your experience today?"
+    "prompt": "What happens inside you when you consider letting that emotion be known?",
+    "optional": ""
   },
   {
     "day": 92,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What does 'enough' look like for you today?",
-    "optional": "What is one desire you can acknowledge without acting on it?"
+    "prompt": "What need have you learned to meet by yourself because asking felt unsafe or disappointing?",
+    "optional": ""
   },
   {
     "day": 93,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What is one desire you can acknowledge without acting on it?",
+    "prompt": "What would it be like to acknowledge that need without criticizing yourself for having it?",
     "optional": ""
   },
   {
     "day": 94,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you noticing yourself wanting to move toward or away from?",
-    "optional": "What would you like to understand about yourself today?"
+    "prompt": "What do you notice about your needs when you are rested compared with when you are depleted?",
+    "optional": "What changes in your awareness of your needs when you have enough energy?"
   },
   {
     "day": 95,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What makes you feel more like yourself?",
-    "optional": "What are you tolerating that you do not actually have to tolerate today?"
+    "prompt": "Which signals are easiest to hear when you are calm?",
+    "optional": "What helps you notice an inner signal before you have to act on it?"
   },
   {
     "day": 96,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What feeling have you been tempted to talk yourself out of?",
+    "prompt": "Which signals become harder to hear when you are activated?",
     "optional": ""
   },
   {
     "day": 97,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like someone else to understand about your experience today?",
-    "optional": "What are you tolerating that you do not actually have to tolerate today?"
+    "prompt": "What helps you tell the difference between an old alarm and a present need?",
+    "optional": "What helps you recognize when an old alarm is speaking?"
   },
   {
     "day": 98,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would you like to understand about yourself today?",
-    "optional": "What are you tolerating that you do not actually have to tolerate today?"
+    "prompt": "When you feel an urge to withdraw, what might you actually be needing?",
+    "optional": "What might you be hoping to find or protect when you pull away?"
   },
   {
     "day": 99,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What emotion is closest to the surface today?",
+    "prompt": "When you feel an urge to pursue or fix, what might you actually be needing?",
     "optional": ""
   },
   {
     "day": 100,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would a compassionate interpretation of your reaction be?",
-    "optional": "What are you noticing yourself wanting to move toward or away from?"
+    "prompt": "What happens when you pause between the feeling and the response?",
+    "optional": "What becomes possible in the pause between feeling and response?"
   },
   {
     "day": 101,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What would support look like if it did not require you to explain everything?",
-    "optional": "What boundary might your body already be trying to communicate?"
+    "prompt": "What is one inner signal you want to practice listening to more consistently?",
+    "optional": "What would listening to this signal more consistently look like in an ordinary moment?"
   },
   {
     "day": 102,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What feeling have you been tempted to talk yourself out of?",
+    "prompt": "What do you notice when you make space for a feeling instead of explaining it away?",
     "optional": ""
   },
   {
     "day": 103,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What are you noticing yourself wanting to move toward or away from?",
-    "optional": "What emotion is closest to the surface today?"
+    "prompt": "What becomes possible when you stop treating every discomfort as a problem to solve?",
+    "optional": "What might you learn by allowing discomfort to be present without immediately solving it?"
   },
   {
     "day": 104,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What emotion is closest to the surface today?",
-    "optional": "What would you like someone else to understand about your experience today?"
+    "prompt": "What feeling becomes easier to hear when you are not trying to make it go away?",
+    "optional": ""
   },
   {
     "day": 105,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
-    "prompt": "What feeling have you been tempted to talk yourself out of?",
+    "prompt": "What need becomes clearer when you give yourself time instead of answering immediately?",
     "optional": ""
   },
   {
     "day": 106,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
-    "optional": "What pattern showed up recently that you can observe without blaming yourself?"
+    "prompt": "What pattern do you notice yourself repeating when you feel stressed?",
+    "optional": "What might this pattern have once helped you manage?"
   },
   {
     "day": 107,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your body do just before you override your own needs?",
-    "optional": "Which part of you is tired today?"
+    "prompt": "When you over-explain, what are you hoping will happen?",
+    "optional": "What are you hoping the other person will understand or do when you explain more?"
   },
   {
     "day": 108,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What old rule are you noticing yourself living by?",
+    "prompt": "What do you tend to do when you fear someone is disappointed with you?",
     "optional": ""
   },
   {
     "day": 109,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would happen if you did not force clarity today?",
-    "optional": "Which part of you is working very hard to keep things okay?"
+    "prompt": "What do you tend to do when you feel misunderstood?",
+    "optional": "What feels most important for you to have understood?"
   },
   {
     "day": 110,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
-    "optional": "What does your protective side fear would happen if you slowed down?"
+    "prompt": "What happens inside you when someone is upset with you?",
+    "optional": "What becomes possible when you make room for this without judging it?"
   },
   {
     "day": 111,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
+    "prompt": "What old rule seems to appear when you are afraid of conflict?",
     "optional": ""
   },
   {
     "day": 112,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
-    "optional": "What would happen if you did not force clarity today?"
+    "prompt": "What have you learned you must do to keep other people comfortable?",
+    "optional": ""
   },
   {
     "day": 113,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your protective side fear would happen if you slowed down?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What have you learned you must not do if you want to be accepted?",
+    "optional": ""
   },
   {
     "day": 114,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your protective side fear would happen if you slowed down?",
+    "prompt": "Which of those rules still makes sense for your life now?",
     "optional": ""
   },
   {
     "day": 115,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your body do just before you override your own needs?",
-    "optional": "When you become responsible for everyone else's feelings, what happens inside you?"
+    "prompt": "What pattern once helped you get through something difficult?",
+    "optional": "What happens just before the old pattern begins?"
   },
   {
     "day": 116,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which rule still serves you, and which one feels outdated?",
-    "optional": "Which part of you is tired today?"
+    "prompt": "What did that pattern protect you from noticing or feeling?",
+    "optional": "What seems to trigger this pattern most often?"
   },
   {
     "day": 117,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your body do just before you override your own needs?",
+    "prompt": "What does your protective response help you avoid today?",
     "optional": ""
   },
   {
     "day": 118,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What old rule are you noticing yourself living by?",
-    "optional": "When you become responsible for everyone else's feelings, what happens inside you?"
+    "prompt": "What does it cost you when you use that protection automatically?",
+    "optional": "What do you notice about the cost without judging yourself for having needed the protection?"
   },
   {
     "day": 119,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What are you allowed to not know yet?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What happens in your body just before an old pattern takes over?",
+    "optional": ""
   },
   {
     "day": 120,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
+    "prompt": "What thought usually arrives just before you abandon your own preference?",
     "optional": ""
   },
   {
     "day": 121,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would happen if you did not force clarity today?",
-    "optional": "What old rule are you noticing yourself living by?"
+    "prompt": "What do you fear would happen if you did not make things easier for everyone else?",
+    "optional": "What do you imagine would happen if you stopped making things easier for everyone else?"
   },
   {
     "day": 122,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is tired today?",
-    "optional": "What old rule are you noticing yourself living by?"
+    "prompt": "What do you fear would happen if you said exactly what you meant?",
+    "optional": "What feels most risky about saying exactly what you mean?"
   },
   {
     "day": 123,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
+    "prompt": "What do you fear would happen if you allowed someone to be disappointed?",
     "optional": ""
   },
   {
     "day": 124,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is working very hard to keep things okay?",
-    "optional": "When you become responsible for everyone else's feelings, what happens inside you?"
+    "prompt": "What do you fear would happen if you stopped explaining yourself?",
+    "optional": "What would the part that keeps explaining need to know in order to stand down?"
   },
   {
     "day": 125,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you become responsible for everyone else's feelings, what happens inside you?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What do you fear would happen if you asked for more?",
+    "optional": "What would asking for more make possible if you did not have to justify the request?"
   },
   {
     "day": 126,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is tired today?",
+    "prompt": "Which part of you feels responsible for keeping the peace?",
     "optional": ""
   },
   {
     "day": 127,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would happen if you did not force clarity today?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What does that part seem to believe would happen if it stopped?",
+    "optional": "Where did you first learn to believe that about yourself?"
   },
   {
     "day": 128,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you become responsible for everyone else's feelings, what happens inside you?",
-    "optional": "Which rule still serves you, and which one feels outdated?"
+    "prompt": "What might that protective part need from you now?",
+    "optional": "What might this protective part need that is different from what it needed then?"
   },
   {
     "day": 129,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What might this pattern have once been trying to protect you from?",
-    "optional": ""
+    "prompt": "Can you appreciate what an old coping strategy was trying to accomplish?",
+    "optional": "What was this strategy trying to accomplish for you at the time?"
   },
   {
     "day": 130,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you shut down, what might you be protecting?",
-    "optional": "What are you allowed to not know yet?"
+    "prompt": "What is something you no longer need to punish yourself for?",
+    "optional": "What becomes possible when you can understand your past response without condemning yourself for it?"
   },
   {
     "day": 131,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
-    "optional": "When you shut down, what might you be protecting?"
+    "prompt": "What reaction of yours makes more sense when you consider what you have lived through?",
+    "optional": "What helps you understand the reaction without defining yourself by it?"
   },
   {
     "day": 132,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is working very hard to keep things okay?",
+    "prompt": "Where do you notice shame trying to turn a behavior into an identity?",
     "optional": ""
   },
   {
     "day": 133,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What old rule are you noticing yourself living by?",
-    "optional": "What would you say to the part of you that feels it must get everything right?"
+    "prompt": "What would change if you could say, “I learned this for a reason,” instead of “Something is wrong with me”?",
+    "optional": "What old rule becomes easier to question when you remember why you learned it?"
   },
   {
     "day": 134,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would it mean to take your own discomfort seriously?",
-    "optional": "When you become responsible for everyone else's feelings, what happens inside you?"
+    "prompt": "What old belief about yourself feels less convincing than it once did?",
+    "optional": ""
   },
   {
     "day": 135,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you become responsible for everyone else's feelings, what happens inside you?",
+    "prompt": "What belief about yourself still feels automatic even though you question it?",
     "optional": ""
   },
   {
     "day": 136,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
-    "optional": "What would it mean to take your own discomfort seriously?"
+    "prompt": "Whose voice does that belief sound like?",
+    "optional": "What do you notice about the belief when you hear whose voice it carries?"
   },
   {
     "day": 137,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your protective side fear would happen if you slowed down?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What did you once have to believe about yourself in order to belong or feel safe?",
+    "optional": "What does your younger self deserve to know about what is different now?"
   },
   {
     "day": 138,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your protective side fear would happen if you slowed down?",
+    "prompt": "What would you like to believe about yourself instead?",
     "optional": ""
   },
   {
     "day": 139,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is tired today?",
-    "optional": "What might this pattern have once been trying to protect you from?"
+    "prompt": "What happens inside you when you imagine releasing an old rule?",
+    "optional": "What feels different when you imagine that the old rule no longer has to run the show?"
   },
   {
     "day": 140,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What are you allowed to not know yet?",
-    "optional": "Which rule still serves you, and which one feels outdated?"
+    "prompt": "Which old rule creates the most tension in your body?",
+    "optional": "Where do you notice this rule showing up in your life now?"
   },
   {
     "day": 141,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your body do just before you override your own needs?",
+    "prompt": "Which old rule feels surprisingly easy to loosen?",
     "optional": ""
   },
   {
     "day": 142,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What are you allowed to not know yet?",
-    "optional": "What might this pattern have once been trying to protect you from?"
+    "prompt": "What are you tolerating because an old pattern tells you that you should?",
+    "optional": "What would you choose if you did not believe you were supposed to tolerate this?"
   },
   {
     "day": 143,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you shut down, what might you be protecting?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What are you doing out of obligation that you might actually be choosing?",
+    "optional": "What part of this is truly a choice, and what part feels like an old obligation?"
   },
   {
     "day": 144,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
+    "prompt": "Where do you confuse being needed with being valued?",
     "optional": ""
   },
   {
     "day": 145,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you shut down, what might you be protecting?",
-    "optional": "Which rule still serves you, and which one feels outdated?"
+    "prompt": "Where do you confuse being agreeable with being safe?",
+    "optional": "What would safety look like if it did not depend on being agreeable?"
   },
   {
     "day": 146,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is working very hard to keep things okay?",
-    "optional": "When you become responsible for everyone else's feelings, what happens inside you?"
+    "prompt": "Where do you confuse discomfort with danger?",
+    "optional": "What helps you stay with discomfort without treating it as a warning to retreat?"
   },
   {
     "day": 147,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is working very hard to keep things okay?",
+    "prompt": "Where do you confuse guilt with wrongdoing?",
     "optional": ""
   },
   {
     "day": 148,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you shut down, what might you be protecting?",
-    "optional": "What does your body do just before you override your own needs?"
+    "prompt": "Where do you confuse responsibility with control?",
+    "optional": "What would become lighter if you stopped trying to control what is not yours?"
   },
   {
     "day": 149,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
-    "optional": "What old rule are you noticing yourself living by?"
+    "prompt": "What happens when you let someone else own their reaction?",
+    "optional": "What becomes possible when you let the other person own their reaction?"
   },
   {
     "day": 150,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What old rule are you noticing yourself living by?",
+    "prompt": "What part of a difficult situation is actually yours to respond to?",
     "optional": ""
   },
   {
     "day": 151,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What might this pattern have once been trying to protect you from?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What part belongs to another person, even if you care deeply about it?",
+    "optional": "What becomes clearer when you separate caring from taking responsibility?"
   },
   {
     "day": 152,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
-    "optional": "What are you allowed to not know yet?"
+    "prompt": "What happens when you resist the urge to fix something that is not yours to fix?",
+    "optional": "What happens when you let the urge to fix something pass without following it?"
   },
   {
     "day": 153,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
+    "prompt": "What does your nervous system expect will happen if you disappoint someone?",
     "optional": ""
   },
   {
     "day": 154,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which rule still serves you, and which one feels outdated?",
-    "optional": "What would happen if you did not force clarity today?"
+    "prompt": "What evidence from your present life challenges that expectation?",
+    "optional": "What present-day evidence helps your body learn that the old expectation is not the whole story?"
   },
   {
     "day": 155,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What pattern showed up recently that you can observe without blaming yourself?",
-    "optional": "What would you say to the part of you that feels it must get everything right?"
+    "prompt": "What evidence supports it, and what evidence does not?",
+    "optional": "What evidence would you want to remember the next time this fear shows up?"
   },
   {
     "day": 156,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would happen if you did not force clarity today?",
-    "optional": ""
+    "prompt": "What is different about you now than when an old coping strategy first became necessary?",
+    "optional": "What is available to you now that was not available then?"
   },
   {
     "day": 157,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
-    "optional": "What would it mean to take your own discomfort seriously?"
+    "prompt": "What choices are available to you now that were not available to you then?",
+    "optional": "Which of those choices feels most available to you now?"
   },
   {
     "day": 158,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is working very hard to keep things okay?",
-    "optional": "When you over-explain, what are you hoping will happen?"
+    "prompt": "What would your younger self need to know about the life you have now?",
+    "optional": "What would help your younger self feel reassured by the life you have now?"
   },
   {
     "day": 159,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your protective side fear would happen if you slowed down?",
+    "prompt": "What do you wish you had been allowed to feel when you were younger?",
     "optional": ""
   },
   {
     "day": 160,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
-    "optional": "Which part of you is working very hard to keep things okay?"
+    "prompt": "What do you wish you had been allowed to want?",
+    "optional": "What would you have wanted permission to want back then?"
   },
   {
     "day": 161,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is tired today?",
-    "optional": "What old rule are you noticing yourself living by?"
+    "prompt": "What do you wish you had been allowed to say no to?",
+    "optional": "What might saying no protect that younger version of you from now?"
   },
   {
     "day": 162,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What might this pattern have once been trying to protect you from?",
+    "prompt": "What does permission look like for you today?",
     "optional": ""
   },
   {
     "day": 163,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What might this pattern have once been trying to protect you from?",
-    "optional": "What are you allowed to not know yet?"
+    "prompt": "What would it mean to let yourself have a need without defending it?",
+    "optional": "What feels risky about saying exactly what you mean?"
   },
   {
     "day": 164,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
-    "optional": "What would happen if you did not force clarity today?"
+    "prompt": "What would it mean to let yourself be imperfect without correcting yourself?",
+    "optional": "What would kindness look like when you make a mistake?"
   },
   {
     "day": 165,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What are you allowed to not know yet?",
+    "prompt": "What would it mean to let yourself take up appropriate space?",
     "optional": ""
   },
   {
     "day": 166,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your body do just before you override your own needs?",
-    "optional": "What would you say to the part of you that feels it must get everything right?"
+    "prompt": "What would it mean to let someone misunderstand you without rushing to repair it?",
+    "optional": "What helps you let another person have their own interpretation without making it yours?"
   },
   {
     "day": 167,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which rule still serves you, and which one feels outdated?",
-    "optional": "Which part of you is tired today?"
+    "prompt": "What pattern are you beginning to recognize sooner than you used to?",
+    "optional": "What helps you recognize the pattern early enough to choose differently?"
   },
   {
     "day": 168,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you over-explain, what are you hoping will happen?",
+    "prompt": "What happens in the moment you recognize an old pattern before acting from it?",
     "optional": ""
   },
   {
     "day": 169,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would happen if you did not force clarity today?",
-    "optional": "What does your body do just before you override your own needs?"
+    "prompt": "What helps create enough space between activation and action?",
+    "optional": "What helps you notice the pause before the old response takes over?"
   },
   {
     "day": 170,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you become responsible for everyone else's feelings, what happens inside you?",
-    "optional": "Which part of you is working very hard to keep things okay?"
+    "prompt": "Which protective response would you like to thank and then choose differently?",
+    "optional": "What did you learn from giving yourself another option?"
   },
   {
     "day": 171,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would you say to the part of you that feels it must get everything right?",
+    "prompt": "What new response would feel more aligned with who you are now?",
     "optional": ""
   },
   {
     "day": 172,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would it mean to take your own discomfort seriously?",
-    "optional": "What pattern showed up recently that you can observe without blaming yourself?"
+    "prompt": "What small experiment could let you practice that new response safely?",
+    "optional": "What would make this new response feel safe enough to practice?"
   },
   {
     "day": 173,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which part of you is tired today?",
-    "optional": "Which part of you is working very hard to keep things okay?"
+    "prompt": "What did you learn from trying something different?",
+    "optional": "What did trying something different teach you about what is possible now?"
   },
   {
     "day": 174,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you become responsible for everyone else's feelings, what happens inside you?",
+    "prompt": "Which old rule still serves you, and which one feels outdated?",
     "optional": ""
   },
   {
     "day": 175,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which rule still serves you, and which one feels outdated?",
-    "optional": "What does your protective side fear would happen if you slowed down?"
+    "prompt": "What are you ready to stop carrying as a requirement for being worthy?",
+    "optional": "What would feel lighter if you no longer treated worthiness as something to earn?"
   },
   {
     "day": 176,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What would it mean to take your own discomfort seriously?",
-    "optional": "What would you say to the part of you that feels it must get everything right?"
+    "prompt": "What part of yourself have you been asking to change when it may actually need understanding?",
+    "optional": "What does this part need from you before it can soften its grip?"
   },
   {
     "day": 177,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "When you shut down, what might you be protecting?",
+    "prompt": "What would self-compassion look like toward a pattern you are not ready to change yet?",
     "optional": ""
   },
   {
     "day": 178,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What are you allowed to not know yet?",
-    "optional": "Which rule still serves you, and which one feels outdated?"
+    "prompt": "What can you make room for now that you could not tolerate noticing earlier this year?",
+    "optional": "What can you notice now that you once had to avoid?"
   },
   {
     "day": 179,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What might this pattern have once been trying to protect you from?",
-    "optional": "What pattern showed up recently that you can observe without blaming yourself?"
+    "prompt": "What happens when you let yourself change your mind without treating the change as failure?",
+    "optional": "What did changing your mind teach you about flexibility?"
   },
   {
     "day": 180,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Which rule still serves you, and which one feels outdated?",
-    "optional": ""
+    "prompt": "What would it look like to make a choice and stay curious about the outcome rather than judging it immediately?",
+    "optional": "What could you learn from the outcome without using it to judge the choice?"
   },
   {
     "day": 181,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would self-respect look like in one ordinary interaction?",
-    "optional": "What would it look like to make a decision from steadiness rather than urgency?"
+    "prompt": "What would self-respect look like in one ordinary interaction today?",
+    "optional": "What would honoring yourself look like without needing the interaction to go perfectly?"
   },
   {
     "day": 182,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What is one small choice you can make that reflects what matters to you?",
+    "optional": "What would choosing from what matters to you feel like in your body?"
   },
   {
     "day": 183,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
+    "prompt": "Where in your life do you already know what you want, even if you have not acted on it?",
     "optional": ""
   },
   {
     "day": 184,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would it look like to make a decision from steadiness rather than urgency?",
-    "optional": "What are you beginning to trust about your own judgment?"
+    "prompt": "What makes it difficult to trust your own preferences?",
+    "optional": "What helps you trust a yes when it is genuinely yours?"
   },
   {
     "day": 185,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where could you practice a smaller, kinder boundary?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "What happens in your body when you imagine choosing for yourself?",
+    "optional": "What would help you honor what you are noticing here?"
   },
   {
     "day": 186,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your yes feel like in your body?",
-    "optional": ""
+    "prompt": "What happens in your body when you imagine overriding yourself?",
+    "optional": "What would make a no feel clear enough to honor?"
   },
   {
     "day": 187,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your yes feel like in your body?",
-    "optional": "What is the difference between discomfort and danger for you today?"
+    "prompt": "What does a genuine yes feel like for you?",
+    "optional": "What helps a yes feel genuine rather than automatic?"
   },
   {
     "day": 188,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "What does a genuine no feel like for you?",
+    "optional": "What makes this boundary feel necessary now?"
   },
   {
     "day": 189,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where could you practice a smaller, kinder boundary?",
+    "prompt": "What does an uncertain “not yet” feel like?",
     "optional": ""
   },
   {
     "day": 190,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would it look like to make a decision from steadiness rather than urgency?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "Where are you saying yes when you mean maybe or no?",
+    "optional": "What happens inside you when you imagine someone being unhappy with your boundary?"
   },
   {
     "day": 191,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What helps you stay connected to yourself while staying connected to someone else?",
-    "optional": "What does your no feel like in your body?"
+    "prompt": "Where are you saying no because you are afraid rather than because you do not want something?",
+    "optional": "What would make a genuine no easier to trust?"
   },
   {
     "day": 192,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would saying 'I need time to think' make possible?",
-    "optional": ""
+    "prompt": "How can you tell the difference between a boundary and a wall?",
+    "optional": "What would enough clarity look like if certainty never arrived?"
   },
   {
     "day": 193,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would saying 'I need time to think' make possible?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What boundary would create more steadiness in your life right now?",
+    "optional": "What helps you tell the difference between a boundary and a wall?"
   },
   {
     "day": 194,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
-    "optional": "What would self-respect look like in one ordinary interaction?"
+    "prompt": "What boundary have you been afraid to communicate?",
+    "optional": "What helps you stay grounded after making a difficult choice?"
   },
   {
     "day": 195,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What are you beginning to trust about your own judgment?",
+    "prompt": "What would it sound like to state that boundary simply, without over-explaining?",
     "optional": ""
   },
   {
     "day": 196,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What helps you stay connected to yourself while staying connected to someone else?",
-    "optional": "What choice feels most aligned with you, even if it is not the easiest choice?"
+    "prompt": "What happens inside you when you imagine someone being unhappy with your boundary?",
+    "optional": "What do you notice when you give yourself permission to keep a decision for a while?"
   },
   {
     "day": 197,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What are you beginning to trust about your own judgment?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "Can you allow another person's disappointment without making it proof that you did something wrong?",
+    "optional": "What helps you trust a no when you hear it?"
   },
   {
     "day": 198,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where could you practice a smaller, kinder boundary?",
-    "optional": ""
+    "prompt": "What is yours to communicate, and what is theirs to decide?",
+    "optional": "What evidence from your own experience deserves more weight?"
   },
   {
     "day": 199,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What are you beginning to trust about your own judgment?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "Where are you waiting for permission to make a choice you already know is yours?",
+    "optional": "What would make this choice feel more like yours?"
   },
   {
     "day": 200,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would saying 'I need time to think' make possible?",
-    "optional": "What would it look like to make a decision from steadiness rather than urgency?"
+    "prompt": "What decision have you been postponing because you want certainty first?",
+    "optional": "What becomes easier when you treat the pause as part of the response?"
   },
   {
     "day": 201,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What are you beginning to trust about your own judgment?",
+    "prompt": "What if the goal were not certainty, but enough clarity for the next step?",
     "optional": ""
   },
   {
     "day": 202,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What is one choice you can make without knowing how everything will turn out?",
+    "optional": "What do you notice when you let a mistake become information instead of a verdict?"
   },
   {
     "day": 203,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
-    "optional": "What are you beginning to trust about your own judgment?"
+    "prompt": "What helps you remain grounded after making a difficult choice?",
+    "optional": ""
   },
   {
     "day": 204,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your no feel like in your body?",
-    "optional": ""
+    "prompt": "What do you do when you second-guess yourself?",
+    "optional": "What does keeping this promise ask of you realistically?"
   },
   {
     "day": 205,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "What choice feels most aligned with you, even if it is not the easiest choice?"
+    "prompt": "What would it look like to question a decision without immediately reversing it?",
+    "optional": ""
   },
   {
     "day": 206,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
-    "optional": "What helps you stay connected to yourself while staying connected to someone else?"
+    "prompt": "What evidence helps you trust yourself?",
+    "optional": ""
   },
   {
     "day": 207,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your yes feel like in your body?",
-    "optional": ""
+    "prompt": "What evidence have you been ignoring because it conflicts with what you hoped would happen?",
+    "optional": "What evidence deserves your attention even if it is not what you hoped for?"
   },
   {
     "day": 208,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
-    "optional": "What does freedom mean to you in a practical, everyday sense?"
+    "prompt": "What does self-trust require from you after you make a mistake?",
+    "optional": "What would repair look like if the goal were learning rather than punishment?"
   },
   {
     "day": 209,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your yes feel like in your body?",
-    "optional": "What would you choose if you did not need anyone to approve of the choice?"
+    "prompt": "How would you speak to yourself if a mistake did not threaten your sense of worth?",
+    "optional": "What can this mistake teach you without becoming a judgment about you?"
   },
   {
     "day": 210,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What is the difference between discomfort and danger for you today?",
+    "prompt": "What happens when you let yourself learn instead of judge?",
     "optional": ""
   },
   {
     "day": 211,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
-    "optional": "Where are you asking yourself to be certain when 'not yet' is enough?"
+    "prompt": "What is one area where you have become more capable of choosing for yourself?",
+    "optional": "What part of choosing for yourself feels strongest now?"
   },
   {
     "day": 212,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would self-respect look like in one ordinary interaction?",
-    "optional": "What would it look like to make a decision from steadiness rather than urgency?"
+    "prompt": "What is one area where you still give your authority away?",
+    "optional": "What would it feel like to keep your own authority in this area?"
   },
   {
     "day": 213,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would it look like to make a decision from steadiness rather than urgency?",
+    "prompt": "What are you afraid might change if you became more honest about what you want?",
     "optional": ""
   },
   {
     "day": 214,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
-    "optional": "What does your no feel like in your body?"
+    "prompt": "What are you afraid might stay the same if you do not?",
+    "optional": "What helps you stay connected to yourself when someone else disagrees?"
   },
   {
     "day": 215,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
-    "optional": "What do you know about yourself now that you did not know before?"
+    "prompt": "What do you want your choices to communicate about what you value?",
+    "optional": "Which value would you most want this choice to express?"
   },
   {
     "day": 216,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would self-respect look like in one ordinary interaction?",
+    "prompt": "Which values are easiest for you to live by?",
     "optional": ""
   },
   {
     "day": 217,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
-    "optional": "What helps you stay connected to yourself while staying connected to someone else?"
+    "prompt": "Which values are hardest to honor when you are under pressure?",
+    "optional": "What support would help you honor this value when pressure rises?"
   },
   {
     "day": 218,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What does integrity feel like in your body?",
+    "optional": "What does alignment between your values and actions feel like in your body?"
   },
   {
     "day": 219,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
+    "prompt": "What does it feel like when your actions and values are out of alignment?",
     "optional": ""
   },
   {
     "day": 220,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would self-respect look like in one ordinary interaction?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "What is one small repair you could make when your actions do not match your values?",
+    "optional": "What would a small repair look like in practice?"
   },
   {
     "day": 221,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you want more room for in your life?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "Where do you need more courage, and where do you actually need more gentleness?",
+    "optional": "What would gentleness make possible alongside courage?"
   },
   {
     "day": 222,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What is the difference between discomfort and danger for you today?",
+    "prompt": "What does courage look like when it is not the same thing as pushing yourself?",
     "optional": ""
   },
   {
     "day": 223,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
-    "optional": "What is the difference between discomfort and danger for you today?"
+    "prompt": "What does rest have to do with making wise choices for you?",
+    "optional": "What becomes clearer when you make decisions from a rested state?"
   },
   {
     "day": 224,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "What happens to your decision-making when you are depleted?",
+    "optional": "What helps you notice when depletion is shaping the choice?"
   },
   {
     "day": 225,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
-    "optional": ""
+    "prompt": "What helps you distinguish urgency from importance?",
+    "optional": "What would still matter if you gave yourself more time?"
   },
   {
     "day": 226,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
-    "optional": "What is the difference between discomfort and danger for you today?"
+    "prompt": "What happens when you wait before responding to something emotionally charged?",
+    "optional": "What changes when you give yourself time before responding?"
   },
   {
     "day": 227,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would you choose if you did not need anyone to approve of the choice?",
-    "optional": "What are you beginning to trust about your own judgment?"
+    "prompt": "What becomes clearer when you give yourself time?",
+    "optional": "What is enough clarity for the next step?"
   },
   {
     "day": 228,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does freedom mean to you in a practical, everyday sense?",
+    "prompt": "What would you like to practice saying without apology?",
     "optional": ""
   },
   {
     "day": 229,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "What would you like to practice asking for directly?",
+    "optional": "What would asking directly sound like if you did not need to soften it first?"
   },
   {
     "day": 230,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would it look like to make a decision from steadiness rather than urgency?",
-    "optional": "What would self-respect look like in one ordinary interaction?"
+    "prompt": "What would you like to practice declining without a long explanation?",
+    "optional": "What helps you say no without turning it into a defense of your character?"
   },
   {
     "day": 231,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What helps you stay connected to yourself while staying connected to someone else?",
+    "prompt": "What would you like to practice receiving without minimizing it?",
     "optional": ""
   },
   {
     "day": 232,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What is the difference between discomfort and danger for you today?",
-    "optional": "What choice feels most aligned with you, even if it is not the easiest choice?"
+    "prompt": "What happens when you let yourself be seen as you actually are?",
+    "optional": "What helps you stay visible without performing?"
   },
   {
     "day": 233,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would self-respect look like in one ordinary interaction?",
-    "optional": "What do you know about yourself now that you did not know before?"
+    "prompt": "What part of being fully yourself still feels risky?",
+    "optional": "What would make being fully yourself feel safer?"
   },
   {
     "day": 234,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
+    "prompt": "What would make that risk feel more manageable?",
     "optional": ""
   },
   {
     "day": 235,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does freedom mean to you in a practical, everyday sense?",
-    "optional": "What are you beginning to trust about your own judgment?"
+    "prompt": "What would trusting yourself one step more look like this week?",
+    "optional": "What is one small way you could practice trusting yourself this week?"
   },
   {
     "day": 236,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
-    "optional": "What are you beginning to trust about your own judgment?"
+    "prompt": "What small promise to yourself could you realistically keep?",
+    "optional": "What would help you keep this promise to yourself realistically?"
   },
   {
     "day": 237,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
+    "prompt": "What happens to self-trust when you keep a promise to yourself?",
     "optional": ""
   },
   {
     "day": 238,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
-    "optional": "What is the difference between discomfort and danger for you today?"
+    "prompt": "What happens when you do not keep one?",
+    "optional": "What would it look like to respond to the broken promise with curiosity?"
   },
   {
     "day": 239,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where could you practice a smaller, kinder boundary?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "How can you respond to yourself after a broken promise without turning it into a character judgment?",
+    "optional": "What would repair look like here rather than punishment?"
   },
   {
     "day": 240,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What choice feels most aligned with you, even if it is not the easiest choice?",
+    "prompt": "What does it mean to repair trust with yourself?",
     "optional": ""
   },
   {
     "day": 241,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would it look like to make a decision from steadiness rather than urgency?",
-    "optional": "What does your no feel like in your body?"
+    "prompt": "What choice would you make if you did not need anyone to approve of it?",
+    "optional": "What would you choose if approval were not part of the equation?"
   },
   {
     "day": 242,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your no feel like in your body?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What choice would you make if you did not need to avoid all discomfort?",
+    "optional": "What discomfort are you willing to tolerate in order to stay aligned with yourself?"
   },
   {
     "day": 243,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
+    "prompt": "What choice would honor both your needs and the reality of the situation?",
     "optional": ""
   },
   {
     "day": 244,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What helps you stay connected to yourself while staying connected to someone else?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "What would a regulated version of you want to remember before responding?",
+    "optional": "What do you want to remember in the moment before you respond?"
   },
   {
     "day": 245,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does freedom mean to you in a practical, everyday sense?",
-    "optional": "What does your yes feel like in your body?"
+    "prompt": "What helps you stay connected to yourself during disagreement?",
+    "optional": "What helps you stay connected to yourself when disagreement activates you?"
   },
   {
     "day": 246,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your no feel like in your body?",
-    "optional": ""
+    "prompt": "How can you remain open without abandoning your own position?",
+    "optional": "What helps you stay open without giving up your own position?"
   },
   {
     "day": 247,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your no feel like in your body?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "How can you remain firm without needing the other person to agree?",
+    "optional": "What would firmness look like if you did not need to win the other person over?"
   },
   {
     "day": 248,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does freedom mean to you in a practical, everyday sense?",
-    "optional": "What helps you stay connected to yourself while staying connected to someone else?"
+    "prompt": "What have you learned about the difference between connection and self-abandonment?",
+    "optional": "What helps you stay connected to yourself while remaining connected to someone else?"
   },
   {
     "day": 249,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What is the difference between discomfort and danger for you today?",
-    "optional": ""
+    "prompt": "What have you learned about the difference between independence and isolation?",
+    "optional": "What does healthy connection look like when you remain your own person?"
   },
   {
     "day": 250,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What is the difference between discomfort and danger for you today?",
-    "optional": "What do you know about yourself now that you did not know before?"
+    "prompt": "What kind of relationship with yourself makes healthy relationships with others more possible?",
+    "optional": "What does a healthy relationship with yourself make possible in your relationships with others?"
   },
   {
     "day": 251,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What helps you stay connected to yourself while staying connected to someone else?",
-    "optional": "Where could you practice a smaller, kinder boundary?"
+    "prompt": "What does your yes feel like in your body now compared with earlier in the year?",
+    "optional": "What feels different about your yes now?"
   },
   {
     "day": 252,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "Where are you asking yourself to be certain when 'not yet' is enough?",
+    "prompt": "What does your no feel like now?",
     "optional": ""
   },
   {
     "day": 253,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your no feel like in your body?",
-    "optional": "Where are you asking yourself to be certain when 'not yet' is enough?"
+    "prompt": "What are you choosing more deliberately than you once did?",
+    "optional": "What has become easier to choose deliberately?"
   },
   {
     "day": 254,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What do you know about yourself now that you did not know before?",
-    "optional": "What would saying 'I need time to think' make possible?"
+    "prompt": "What is one decision you can make today from self-trust rather than fear?",
+    "optional": "What helps you tell self-trust from simply getting the outcome you wanted?"
   },
   {
     "day": 255,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What does your yes feel like in your body?",
-    "optional": ""
+    "prompt": "What would it mean to honor a choice you made even if it did not produce the outcome you hoped for?",
+    "optional": "What would help you honor the choice even while making room for disappointment?"
   },
   {
     "day": 256,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What does play look like for you at this stage of life?",
-    "optional": "What part of yourself have you missed?"
+    "optional": "What helps you give yourself permission to play without needing a reason?"
   },
   {
     "day": 257,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What are you curious about again?",
-    "optional": "What part of yourself have you missed?"
+    "prompt": "What have you missed doing simply because you enjoyed it?",
+    "optional": "What would make room for more enjoyment without turning it into a task?"
   },
   {
     "day": 258,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What makes you feel quietly alive?",
+    "prompt": "What makes you curious lately?",
     "optional": ""
   },
   {
     "day": 259,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of connection feels nourishing rather than draining?",
-    "optional": "What would a life with more spaciousness contain?"
+    "prompt": "What activity makes time feel a little different for you?",
+    "optional": "What helps you protect time for curiosity?"
   },
   {
     "day": 260,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of person do you feel yourself becoming?",
-    "optional": "What relationship qualities help your body soften?"
+    "prompt": "What part of yourself becomes more visible when you are having fun?",
+    "optional": "What would it be like to make a little more room for this in your life?"
   },
   {
     "day": 261,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "Where does your voice want a little more room?",
+    "prompt": "What makes you feel most alive in an ordinary week?",
     "optional": ""
   },
   {
     "day": 262,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of connection feels nourishing rather than draining?",
-    "optional": "What did you enjoy before you started measuring whether it was useful?"
+    "prompt": "What kinds of places help you feel like yourself?",
+    "optional": "What is it about those places that lets your shoulders drop or your attention open?"
   },
   {
     "day": 263,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does being known without being managed feel like?",
-    "optional": "Where does your voice want a little more room?"
+    "prompt": "What kinds of people help you feel more fully yourself?",
+    "optional": "What qualities in those people help you feel less like you have to perform?"
   },
   {
     "day": 264,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of connection feels nourishing rather than draining?",
+    "prompt": "What kinds of interactions leave you feeling smaller or less connected to yourself?",
     "optional": ""
   },
   {
     "day": 265,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What did you enjoy before you started measuring whether it was useful?",
-    "optional": "What kind of adventure feels appealing right now?"
+    "prompt": "What relationship qualities help your nervous system feel more at ease?",
+    "optional": "What relationship qualities help you feel both connected and still yourself?"
   },
   {
     "day": 266,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What do you want to experience more often?",
-    "optional": "What is something you want simply because you want it?"
+    "prompt": "What does being known feel like to you?",
+    "optional": "What does being known without performing feel like in your body?"
   },
   {
     "day": 267,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of person do you feel yourself becoming?",
+    "prompt": "What does being accepted feel like when you are not performing?",
     "optional": ""
   },
   {
     "day": 268,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does being known without being managed feel like?",
-    "optional": "What would a life with more spaciousness contain?"
+    "prompt": "What part of yourself do you tend to hide in relationships?",
+    "optional": "What would make it safer to let that hidden part be seen?"
   },
   {
     "day": 269,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What values do you want your daily life to reflect?",
-    "optional": "What is something you want simply because you want it?"
+    "prompt": "What would become possible if you showed a little more of that part?",
+    "optional": "What small way could you let that part of yourself show up?"
   },
   {
     "day": 270,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does being known without being managed feel like?",
+    "prompt": "What do you genuinely enjoy that you have been treating as unimportant?",
     "optional": ""
   },
   {
     "day": 271,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What are you curious about again?",
-    "optional": "What would a life with more spaciousness contain?"
+    "prompt": "What desire keeps returning even after you set it aside?",
+    "optional": "What would it be like to let that desire have a place in your life without turning it into a project?"
   },
   {
     "day": 272,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What values do you want your daily life to reflect?",
-    "optional": "What makes you feel quietly alive?"
+    "prompt": "What are you curious enough about to explore without needing a goal?",
+    "optional": "What would you explore simply because you are curious?"
   },
   {
     "day": 273,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your body soften?",
+    "prompt": "What would you try if you were allowed to be a beginner?",
     "optional": ""
   },
   {
     "day": 274,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What makes you feel quietly alive?",
-    "optional": "What relationship qualities help your body soften?"
+    "prompt": "What would you do if you did not have to be good at it?",
+    "optional": "What becomes possible when being good at something is not the point?"
   },
   {
     "day": 275,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What part of yourself have you missed?",
-    "optional": "What are you curious about again?"
+    "prompt": "What kind of beauty catches your attention?",
+    "optional": "What about that beauty draws your attention?"
   },
   {
     "day": 276,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What is something you want simply because you want it?",
+    "prompt": "What sensory experiences make you feel most present and alive?",
     "optional": ""
   },
   {
     "day": 277,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your body soften?",
-    "optional": "What are you curious about again?"
+    "prompt": "What is something your body enjoys that your mind sometimes overlooks?",
+    "optional": "What does your body seem to enjoy before your mind evaluates it?"
   },
   {
     "day": 278,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of adventure feels appealing right now?",
-    "optional": "What did you enjoy before you started measuring whether it was useful?"
+    "prompt": "What does spaciousness mean to you?",
+    "optional": "What would more spaciousness give you room to experience?"
   },
   {
     "day": 279,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "Where does your voice want a little more room?",
+    "prompt": "Where could you create a little more spaciousness in your life?",
     "optional": ""
   },
   {
     "day": 280,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What do you want to experience more often?",
-    "optional": "What kind of person do you feel yourself becoming?"
+    "prompt": "What part of your life feels like it belongs to you rather than to expectation?",
+    "optional": "What makes that part of your life feel genuinely yours?"
   },
   {
     "day": 281,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What did you enjoy before you started measuring whether it was useful?",
-    "optional": "What is something you want simply because you want it?"
+    "prompt": "What part still feels organized around someone else's expectations?",
+    "optional": "What expectation would you like to loosen so that more of your own life can emerge?"
   },
   {
     "day": 282,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of person do you feel yourself becoming?",
+    "prompt": "What values feel increasingly important to you now?",
     "optional": ""
   },
   {
     "day": 283,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What values do you want your daily life to reflect?",
-    "optional": "What are you curious about again?"
+    "prompt": "Which values have become clearer through everything you have experienced this year?",
+    "optional": "Which value feels most alive in you right now?"
   },
   {
     "day": 284,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What did you enjoy before you started measuring whether it was useful?",
-    "optional": "What do you want to experience more often?"
+    "prompt": "What kind of life feels meaningful to you beyond achievement?",
+    "optional": "What part of a meaningful life cannot be measured by achievement?"
   },
   {
     "day": 285,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does being known without being managed feel like?",
+    "prompt": "What does enough freedom look like for you?",
     "optional": ""
   },
   {
     "day": 286,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of person do you feel yourself becoming?",
-    "optional": "What does play look like for you at this stage of life?"
+    "prompt": "What does enough connection look like?",
+    "optional": "What kind of connection feels like enough for you?"
   },
   {
     "day": 287,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your body soften?",
-    "optional": "What would a life with more spaciousness contain?"
+    "prompt": "What does enough solitude look like?",
+    "optional": "What does nourishing solitude give you?"
   },
   {
     "day": 288,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What would a life with more spaciousness contain?",
+    "prompt": "What does enough challenge look like?",
     "optional": ""
   },
   {
     "day": 289,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What is something you want simply because you want it?",
-    "optional": "What kind of adventure feels appealing right now?"
+    "prompt": "What do you want more of in your everyday life?",
+    "optional": "Which of the things you want more of feels most nourishing?"
   },
   {
     "day": 290,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What would a life with more spaciousness contain?",
-    "optional": "What is something you want simply because you want it?"
+    "prompt": "What do you want less of?",
+    "optional": "What would you gladly have less of if you did not need to justify it?"
   },
   {
     "day": 291,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does play look like for you at this stage of life?",
+    "prompt": "What do you want to protect because it helps you feel like yourself?",
     "optional": ""
   },
   {
     "day": 292,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of person do you feel yourself becoming?",
-    "optional": "What kind of adventure feels appealing right now?"
+    "prompt": "What do you want to make more room for because it brings you alive?",
+    "optional": "What would making room for this look like in a normal week?"
   },
   {
     "day": 293,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does being known without being managed feel like?",
-    "optional": "What does play look like for you at this stage of life?"
+    "prompt": "What have you learned about what drains you?",
+    "optional": "What is one early sign that something is draining you?"
   },
   {
     "day": 294,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of connection feels nourishing rather than draining?",
+    "prompt": "What have you learned about what restores you?",
     "optional": ""
   },
   {
     "day": 295,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does play look like for you at this stage of life?",
-    "optional": "What makes you feel quietly alive?"
+    "prompt": "What kind of environment helps you think clearly and feel grounded?",
+    "optional": "What quality of an environment helps you feel most grounded?"
   },
   {
     "day": 296,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What do you want to experience more often?",
-    "optional": "What does being known without being managed feel like?"
+    "prompt": "What kind of environment invites more of your natural personality to emerge?",
+    "optional": "What conditions help your natural personality come forward?"
   },
   {
     "day": 297,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of adventure feels appealing right now?",
+    "prompt": "What part of yourself have you missed?",
     "optional": ""
   },
   {
     "day": 298,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What did you enjoy before you started measuring whether it was useful?",
-    "optional": "What does being known without being managed feel like?"
+    "prompt": "What part of yourself have you recently met again?",
+    "optional": "What makes reconnecting with that part of yourself feel meaningful?"
   },
   {
     "day": 299,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What are you curious about again?",
-    "optional": "What does being known without being managed feel like?"
+    "prompt": "What old interest or quality would you like to welcome back?",
+    "optional": "What would welcoming that interest back look like without making it a project?"
   },
   {
     "day": 300,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What do you want to experience more often?",
+    "prompt": "What have you discovered you like that you did not expect?",
     "optional": ""
   },
   {
     "day": 301,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of adventure feels appealing right now?",
-    "optional": "What part of yourself have you missed?"
+    "prompt": "What makes you laugh in a way that feels unguarded?",
+    "optional": "What helps you feel unguarded enough to laugh that way?"
   },
   {
     "day": 302,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your body soften?",
-    "optional": "What do you want to experience more often?"
+    "prompt": "When do you feel most playful?",
+    "optional": "What gets in the way of letting yourself be playful?"
   },
   {
     "day": 303,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What would a life with more spaciousness contain?",
+    "prompt": "When do you feel most creative?",
     "optional": ""
   },
   {
     "day": 304,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your body soften?",
-    "optional": "What do you want to experience more often?"
+    "prompt": "When do you feel most connected to your own voice?",
+    "optional": "What helps you hear your own voice when other people’s expectations get loud?"
   },
   {
     "day": 305,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What kind of adventure feels appealing right now?",
-    "optional": "What does play look like for you at this stage of life?"
+    "prompt": "What does your own voice sound like when you are not trying to please anyone?",
+    "optional": "What does your own voice sound like when you are not trying to please anyone?"
   },
   {
     "day": 306,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What part of yourself have you missed?",
+    "prompt": "What do you want your days to contain that cannot be measured by productivity?",
     "optional": ""
   },
   {
     "day": 307,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What is something you want simply because you want it?",
-    "optional": "What do you want to experience more often?"
+    "prompt": "What would a satisfying ordinary day look like?",
+    "optional": "Which part of that ordinary day feels most important to you?"
   },
   {
     "day": 308,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "Where does your voice want a little more room?",
-    "optional": "What kind of connection feels nourishing rather than draining?"
+    "prompt": "What would you like to experience more often in your relationships?",
+    "optional": "What kind of connection would you like to experience more often?"
   },
   {
     "day": 309,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What part of yourself have you missed?",
+    "prompt": "What kind of reciprocity feels nourishing to you?",
     "optional": ""
   },
   {
     "day": 310,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What would a life with more spaciousness contain?",
-    "optional": "What are you curious about again?"
+    "prompt": "What does mutuality mean in a relationship?",
+    "optional": "What tells you that a relationship has room for both people?"
   },
   {
     "day": 311,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What makes you feel quietly alive?",
-    "optional": "What does being known without being managed feel like?"
+    "prompt": "What relationships allow you to both give and receive?",
+    "optional": "What makes giving and receiving feel balanced in that relationship?"
   },
   {
     "day": 312,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What is something you want simply because you want it?",
+    "prompt": "Where are you learning that receiving can be as important as giving?",
     "optional": ""
   },
   {
     "day": 313,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What part of yourself have you missed?",
-    "optional": "What makes you feel quietly alive?"
+    "prompt": "What happens when you let someone care for you without immediately returning the favor?",
+    "optional": "What happens when you let care reach you without immediately returning it?"
   },
   {
     "day": 314,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What would a life with more spaciousness contain?",
-    "optional": "What kind of person do you feel yourself becoming?"
+    "prompt": "What does healthy closeness feel like in your body?",
+    "optional": "What helps closeness feel safe, mutual, and still like yourself?"
   },
   {
     "day": 315,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does play look like for you at this stage of life?",
+    "prompt": "What does healthy distance feel like?",
     "optional": ""
   },
   {
     "day": 316,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What does play look like for you at this stage of life?",
-    "optional": "What kind of connection feels nourishing rather than draining?"
+    "prompt": "What have you learned about the difference between loneliness and solitude?",
+    "optional": "What does solitude give you that loneliness does not?"
   },
   {
     "day": 317,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "Where does your voice want a little more room?",
-    "optional": "What kind of connection feels nourishing rather than draining?"
+    "prompt": "What kind of connection helps you remain connected to yourself?",
+    "optional": "What kind of connection helps you stay connected to yourself?"
   },
   {
     "day": 318,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What values do you want your daily life to reflect?",
-    "optional": ""
+    "prompt": "What are you beginning to want simply because it is yours to want?",
+    "optional": "What makes that desire feel like yours rather than something you should want?"
   },
   {
     "day": 319,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What values do you want your daily life to reflect?",
-    "optional": "What kind of person do you feel yourself becoming?"
+    "prompt": "What would you like your life to feel like, not just look like?",
+    "optional": "What quality would you most like to feel more often in your life?"
   },
   {
     "day": 320,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What part of yourself have you missed?",
-    "optional": "What would a life with more spaciousness contain?"
+    "prompt": "What is one small way you can move toward that feeling this week?",
+    "optional": "What is one small way to move toward that feeling without turning it into another goal?"
   },
   {
     "day": 321,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What helps you return to yourself when you lose your footing?",
-    "optional": ""
+    "prompt": "What have you learned about the conditions that help you feel grounded?",
+    "optional": "Which conditions matter most to you when you want to feel grounded?"
   },
   {
     "day": 322,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What boundaries have become clearer?",
-    "optional": "What does 'coming back to yourself' mean to you now?"
+    "prompt": "Which signals from your body do you trust more now?",
+    "optional": "Which body signals have become easier to trust because of what you have experienced?"
   },
   {
     "day": 323,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What do you want to carry forward from this year of reflection?",
-    "optional": "What kind of care do you want to make ordinary?"
+    "prompt": "What feelings can you allow yourself to experience more fully than you once could?",
+    "optional": "What helps you allow a difficult feeling now that you might once have pushed away?"
   },
   {
     "day": 324,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What are you no longer willing to abandon in yourself?",
+    "prompt": "What do you understand about your needs that you did not understand a year ago?",
     "optional": ""
   },
   {
     "day": 325,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does enoughness mean when you remove performance from the equation?",
-    "optional": "What has become less frightening simply because you have practiced staying present with it?"
+    "prompt": "Which old pattern can you recognize sooner now?",
+    "optional": "What helps you recognize this pattern before it has much momentum?"
   },
   {
     "day": 326,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does enoughness mean when you remove performance from the equation?",
-    "optional": "What has become less frightening simply because you have practiced staying present with it?"
+    "prompt": "What protective response do you understand with more compassion?",
+    "optional": "What changed when you began understanding the protection instead of fighting it?"
   },
   {
     "day": 327,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would you like the next chapter to feel like, rather than simply accomplish?",
+    "prompt": "What old rule no longer deserves automatic authority in your life?",
     "optional": ""
   },
   {
     "day": 328,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would trusting yourself one step more look like?",
-    "optional": "What parts of your life feel genuinely yours?"
+    "prompt": "What new belief about yourself feels more believable because you have lived it?",
+    "optional": "What experience from this year gives you reason to trust that new belief?"
   },
   {
     "day": 329,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What are you no longer willing to abandon in yourself?",
-    "optional": "What would trusting yourself one step more look like?"
+    "prompt": "What have you learned about the difference between safety and familiarity?",
+    "optional": "What would you want to remember when something familiar feels safer simply because it is familiar?"
   },
   {
     "day": 330,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would you like the next chapter to feel like, rather than simply accomplish?",
-    "optional": ""
+    "prompt": "What have you learned about the difference between discomfort and danger?",
+    "optional": "What helps you remember that discomfort does not automatically mean danger?"
   },
   {
     "day": 331,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What do you want to leave behind?",
-    "optional": "What does 'coming back to yourself' mean to you now?"
+    "prompt": "What have you learned about the difference between guilt and responsibility?",
+    "optional": "What has changed in the way you respond to guilt now?"
   },
   {
     "day": 332,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What do you want to carry forward from this year of reflection?",
-    "optional": "What are you proud of that does not look impressive from the outside?"
+    "prompt": "What have you learned about staying connected to yourself while remaining open to other people?",
+    "optional": "What would you like to carry forward from this reflection?"
   },
   {
     "day": 333,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What boundaries have become clearer?",
-    "optional": ""
+    "prompt": "What have you learned about the difference between rest and avoidance?",
+    "optional": "What helps you tell rest from avoidance in your own life?"
   },
   {
     "day": 334,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What helps you return to yourself when you lose your footing?",
-    "optional": "What does 'coming back to yourself' mean to you now?"
+    "prompt": "What have you learned about the difference between intuition and fear?",
+    "optional": "What helps you tell intuition from fear when both feel strong?"
   },
   {
     "day": 335,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would trusting yourself one step more look like?",
-    "optional": "What would you like the next chapter to feel like, rather than simply accomplish?"
+    "prompt": "What choices feel more authentically yours now?",
+    "optional": "What choice feels more authentically yours now, even if it is small?"
   },
   {
     "day": 336,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would trusting yourself one step more look like?",
+    "prompt": "What boundary feels more natural to you now?",
     "optional": ""
   },
   {
     "day": 337,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What helps you return to yourself when you lose your footing?",
-    "optional": "What do you want to carry forward from this year of reflection?"
+    "prompt": "What does self-trust mean to you after practicing it?",
+    "optional": "What has practicing self-trust taught you about yourself?"
   },
   {
     "day": 338,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "Which signals from your body do you trust more now?",
-    "optional": "What are you proud of that does not look impressive from the outside?"
+    "prompt": "How do you want to respond when you inevitably get activated again?",
+    "optional": "What helps you come back without judging yourself for being activated?"
   },
   {
     "day": 339,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does 'coming back to yourself' mean to you now?",
+    "prompt": "What would you like to remember when an old pattern returns?",
     "optional": ""
   },
   {
     "day": 340,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What boundaries have become clearer?",
-    "optional": "What are you no longer willing to abandon in yourself?"
+    "prompt": "What helps you create a pause before reacting?",
+    "optional": "What helps you create enough space to choose your response?"
   },
   {
     "day": 341,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "Which signals from your body do you trust more now?",
-    "optional": "What do you want to carry forward from this year of reflection?"
+    "prompt": "What helps you come back to yourself after a difficult interaction?",
+    "optional": "What is the earliest sign that tells you it is time to come back to yourself?"
   },
   {
     "day": 342,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What parts of your life feel genuinely yours?",
+    "prompt": "What do you want to practice rather than merely understand?",
     "optional": ""
   },
   {
     "day": 343,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What do you want to carry forward from this year of reflection?",
-    "optional": "What has become less frightening simply because you have practiced staying present with it?"
+    "prompt": "What parts of yourself do you want to keep listening to?",
+    "optional": "Which part of yourself has become easier to hear this year?"
   },
   {
     "day": 344,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What kind of care do you want to make ordinary?",
-    "optional": "Which signals from your body do you trust more now?"
+    "prompt": "What parts of yourself do you want to stop silencing?",
+    "optional": "What would it look like to keep listening to the parts you once silenced?"
   },
   {
     "day": 345,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does enoughness mean when you remove performance from the equation?",
+    "prompt": "What are you no longer willing to abandon in yourself?",
     "optional": ""
   },
   {
     "day": 346,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What helps you return to yourself when you lose your footing?",
-    "optional": "What parts of your life feel genuinely yours?"
+    "prompt": "What are you willing to let remain unfinished?",
+    "optional": "What are you willing to leave unfinished without making it mean something about you?"
   },
   {
     "day": 347,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would you like the next chapter to feel like, rather than simply accomplish?",
-    "optional": "What helps you return to yourself when you lose your footing?"
+    "prompt": "What are you willing to let someone else misunderstand?",
+    "optional": "What helps you tolerate being misunderstood without abandoning yourself?"
   },
   {
     "day": 348,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What kind of care do you want to make ordinary?",
+    "prompt": "What are you willing to stop proving?",
     "optional": ""
   },
   {
     "day": 349,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What parts of your life feel genuinely yours?",
-    "optional": "What kind of care do you want to make ordinary?"
+    "prompt": "What are you willing to stop earning?",
+    "optional": "What would become lighter if you stopped proving your worth?"
   },
   {
     "day": 350,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does 'coming back to yourself' mean to you now?",
-    "optional": "What parts of your life feel genuinely yours?"
+    "prompt": "What do you want to receive more freely?",
+    "optional": "What makes receiving feel easier when you do not have to earn it?"
   },
   {
     "day": 351,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What are you proud of that does not look impressive from the outside?",
+    "prompt": "What do you want to give more freely?",
     "optional": ""
   },
   {
     "day": 352,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What kind of care do you want to make ordinary?",
-    "optional": "What has become less frightening simply because you have practiced staying present with it?"
+    "prompt": "What kind of life would feel like a continuation of yourself rather than a performance of yourself?",
+    "optional": "What would make that kind of life feel lived rather than performed?"
   },
   {
     "day": 353,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "Which signals from your body do you trust more now?",
-    "optional": "What are you no longer willing to abandon in yourself?"
+    "prompt": "What values do you want your future choices to reflect?",
+    "optional": "Which value do you most want your future choices to reflect?"
   },
   {
     "day": 354,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does 'coming back to yourself' mean to you now?",
-    "optional": ""
+    "prompt": "What relationships do you want to nurture from a more grounded version of yourself?",
+    "optional": "What would nurturing those relationships look like from a grounded place?"
   },
   {
     "day": 355,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What would trusting yourself one step more look like?",
-    "optional": "What does 'coming back to yourself' mean to you now?"
+    "prompt": "What does “coming back to yourself” mean to you now?",
+    "optional": "What does coming back to yourself look like in an ordinary day now?"
   },
   {
     "day": 356,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What have you learned about listening to yourself?",
-    "optional": "What does 'coming back to yourself' mean to you now?"
+    "prompt": "What have you learned that you want to carry into the next year?",
+    "optional": "What is one practice or understanding you most want to carry forward?"
   },
   {
     "day": 357,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What kind of care do you want to make ordinary?",
-    "optional": ""
+    "prompt": "What have you learned that you do not need to carry anymore?",
+    "optional": "What feels lighter when you realize you do not need to carry it anymore?"
   },
   {
     "day": 358,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What parts of your life feel genuinely yours?",
-    "optional": "What has become less frightening simply because you have practiced staying present with it?"
+    "prompt": "What is one practice that reliably helps you reconnect with yourself?",
+    "optional": "What helps you return to this practice when life gets busy?"
   },
   {
     "day": 359,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does 'coming back to yourself' mean to you now?",
-    "optional": "What helps you return to yourself when you lose your footing?"
+    "prompt": "What is one early warning sign that tells you you are becoming disconnected from yourself?",
+    "optional": "What is the earliest point at which you could respond differently?"
   },
   {
     "day": 360,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What has become less frightening simply because you have practiced staying present with it?",
+    "prompt": "What is one thing you can do when you notice that sign?",
     "optional": ""
   },
   {
     "day": 361,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What do you want to leave behind?",
-    "optional": "What would you like the next chapter to feel like, rather than simply accomplish?"
+    "prompt": "What would you like your future self to remember about this year?",
+    "optional": "What would you want your future self to remember on a difficult day?"
   },
   {
     "day": 362,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What have you learned about listening to yourself?",
-    "optional": "What would you like the next chapter to feel like, rather than simply accomplish?"
+    "prompt": "What would you tell yourself on a difficult day when you forget how far you have come?",
+    "optional": "What would you say to yourself that is both honest and kind?"
   },
   {
     "day": 363,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What are you proud of that does not look impressive from the outside?",
-    "optional": ""
+    "prompt": "What does enoughness mean when you remove performance from the equation?",
+    "optional": "What remains true about your worth when nothing needs to be proved?"
   },
   {
     "day": 364,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What does enoughness mean when you remove performance from the equation?",
-    "optional": "What would you like the next chapter to feel like, rather than simply accomplish?"
+    "prompt": "What would you like the next chapter to feel like, rather than simply accomplish?",
+    "optional": "What small choice could move you toward the feeling you want more of?"
   },
   {
     "day": 365,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What are you no longer willing to abandon in yourself?",
-    "optional": "What do you want to leave behind?"
+    "prompt": "What are you choosing to trust in yourself as you continue?",
+    "optional": "What would help you remember this trust when life gets noisy again?"
   }
 ];
 const KEY = "bty-entries-v1";
