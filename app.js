@@ -95,7 +95,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "What happens when you pause long enough to notice your surroundings before moving on?",
-    "optional": "What do you notice when you stay with this for another moment?"
+    "optional": "What helps you stay present with what you notice before moving on?"
   },
   {
     "day": 15,
@@ -172,7 +172,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "What helps you settle after a moment of stimulation or stress?",
-    "optional": "What helps you return to a steadier place after stress?"
+    "optional": ""
   },
   {
     "day": 26,
@@ -214,7 +214,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "Where does your attention naturally go when you are not trying to control it?",
-    "optional": "What do you notice about your attention when you stop trying to direct it?"
+    "optional": ""
   },
   {
     "day": 32,
@@ -235,7 +235,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "What happens when you let a neutral moment simply be neutral?",
-    "optional": "What happens when you let the moment be exactly as it is?"
+    "optional": ""
   },
   {
     "day": 35,
@@ -256,7 +256,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "What helps you come back after your attention has wandered?",
-    "optional": "What helps you return gently when your attention wanders?"
+    "optional": ""
   },
   {
     "day": 38,
@@ -277,7 +277,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "What helps you feel more settled after being around other people?",
-    "optional": "What helps your body settle again after being around other people?"
+    "optional": ""
   },
   {
     "day": 41,
@@ -305,7 +305,7 @@ const DAYS = [
     "phase": "ARRIVING",
     "phaseDescription": "Safety, orientation, and noticing",
     "prompt": "Which signals from your body are becoming easier to recognize?",
-    "optional": "What makes that signal easier to recognize?"
+    "optional": "What has changed about the way you respond to these signals?"
   },
   {
     "day": 45,
@@ -361,7 +361,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What feeling have you been tempted to talk yourself out of?",
-    "optional": "What happens when you let that feeling be present without needing to explain it?"
+    "optional": ""
   },
   {
     "day": 53,
@@ -431,7 +431,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What happens in your body when a need is met, even in a small way?",
-    "optional": "What changes in your body when you recognize that a need has been met?"
+    "optional": ""
   },
   {
     "day": 63,
@@ -452,7 +452,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What do you notice when you ask yourself, “What do I need?” and wait?",
-    "optional": "What do you notice when you give yourself time to answer?"
+    "optional": "What might help you hear the answer before you start negotiating with it?"
   },
   {
     "day": 66,
@@ -487,7 +487,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What is your body saying before your mind starts negotiating with it?",
-    "optional": "What do you notice in your body before your mind starts negotiating with the signal?"
+    "optional": "What happens when you give that signal a moment of attention before deciding what it means?"
   },
   {
     "day": 71,
@@ -508,7 +508,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What sensations tell you that you are approaching overwhelm?",
-    "optional": "What is the earliest sign that tells you you are approaching overwhelm?"
+    "optional": "What is one small thing you can do when you notice that early sign?"
   },
   {
     "day": 74,
@@ -522,7 +522,7 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What happens when you stay with a feeling for one minute without fixing it?",
-    "optional": "What changes when you stay with the feeling instead of fixing it?"
+    "optional": "What do you learn about the feeling when you stay with it instead of fixing it?"
   },
   {
     "day": 76,
@@ -697,14 +697,14 @@ const DAYS = [
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What happens when you pause between the feeling and the response?",
-    "optional": "What becomes possible in the pause between feeling and response?"
+    "optional": "What do you notice in the small space between feeling and response?"
   },
   {
     "day": 101,
     "phase": "LISTENING",
     "phaseDescription": "Needs, emotions, and inner signals",
     "prompt": "What is one inner signal you want to practice listening to more consistently?",
-    "optional": "What would listening to this signal more consistently look like in an ordinary moment?"
+    "optional": "What would make it easier to remember this signal in an ordinary moment?"
   },
   {
     "day": 102,
@@ -843,35 +843,35 @@ const DAYS = [
     "day": 121,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What do you fear would happen if you did not make things easier for everyone else?",
-    "optional": "What do you imagine would happen if you stopped making things easier for everyone else?"
+    "prompt": "What happens inside you when someone else is uncomfortable with your choice?",
+    "optional": "What do you imagine would happen if you let their discomfort belong to them?"
   },
   {
     "day": 122,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What do you fear would happen if you said exactly what you meant?",
-    "optional": "What feels most risky about saying exactly what you mean?"
+    "prompt": "What happens inside you when you say what you actually mean?",
+    "optional": "What helps you stay connected to yourself while saying it?"
   },
   {
     "day": 123,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What do you fear would happen if you allowed someone to be disappointed?",
+    "prompt": "What happens inside you when you allow someone to be disappointed?",
     "optional": ""
   },
   {
     "day": 124,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What do you fear would happen if you stopped explaining yourself?",
+    "prompt": "What happens when you stop explaining something that is already clear to you?",
     "optional": "What would the part that keeps explaining need to know in order to stand down?"
   },
   {
     "day": 125,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What do you fear would happen if you asked for more?",
+    "prompt": "What happens when you let yourself ask for more?",
     "optional": "What would asking for more make possible if you did not have to justify the request?"
   },
   {
@@ -900,7 +900,7 @@ const DAYS = [
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
     "prompt": "Can you appreciate what an old coping strategy was trying to accomplish?",
-    "optional": "What was this strategy trying to accomplish for you at the time?"
+    "optional": "What can you appreciate about the way this strategy tried to help you?"
   },
   {
     "day": 130,
@@ -1011,14 +1011,14 @@ const DAYS = [
     "day": 145,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Where do you confuse being agreeable with being safe?",
+    "prompt": "When do you find yourself equating being agreeable with being safe?",
     "optional": "What would safety look like if it did not depend on being agreeable?"
   },
   {
     "day": 146,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "Where do you confuse discomfort with danger?",
+    "prompt": "When does discomfort start to feel like danger to you?",
     "optional": "What helps you stay with discomfort without treating it as a warning to retreat?"
   },
   {
@@ -1040,7 +1040,7 @@ const DAYS = [
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
     "prompt": "What happens when you let someone else own their reaction?",
-    "optional": "What becomes possible when you let the other person own their reaction?"
+    "optional": ""
   },
   {
     "day": 150,
@@ -1067,15 +1067,15 @@ const DAYS = [
     "day": 153,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
-    "prompt": "What does your nervous system expect will happen if you disappoint someone?",
-    "optional": ""
+    "prompt": "What does your body seem to expect will happen if you disappoint someone?",
+    "optional": "What in your present life helps challenge that expectation?"
   },
   {
     "day": 154,
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
     "prompt": "What evidence from your present life challenges that expectation?",
-    "optional": "What present-day evidence helps your body learn that the old expectation is not the whole story?"
+    "optional": ""
   },
   {
     "day": 155,
@@ -1138,7 +1138,7 @@ const DAYS = [
     "phase": "MAKING ROOM",
     "phaseDescription": "Patterns, protection, and permission",
     "prompt": "What would it mean to let yourself have a need without defending it?",
-    "optional": "What feels risky about saying exactly what you mean?"
+    "optional": "What would help you let that need exist without defending it?"
   },
   {
     "day": 164,
@@ -1383,7 +1383,7 @@ const DAYS = [
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
     "prompt": "What is yours to communicate, and what is theirs to decide?",
-    "optional": "What evidence from your own experience deserves more weight?"
+    "optional": "What becomes lighter when you stop taking responsibility for what belongs to someone else?"
   },
   {
     "day": 199,
@@ -1425,7 +1425,7 @@ const DAYS = [
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
     "prompt": "What do you do when you second-guess yourself?",
-    "optional": "What does keeping this promise ask of you realistically?"
+    "optional": "What helps you stay with a decision while you give yourself time to think?"
   },
   {
     "day": 205,
@@ -1495,7 +1495,7 @@ const DAYS = [
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
     "prompt": "What are you afraid might stay the same if you do not?",
-    "optional": "What helps you stay connected to yourself when someone else disagrees?"
+    "optional": "What would staying honest with yourself make possible, even if the situation stayed difficult?"
   },
   {
     "day": 215,
@@ -1704,7 +1704,7 @@ const DAYS = [
     "day": 244,
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
-    "prompt": "What would a regulated version of you want to remember before responding?",
+    "prompt": "What would help you stay grounded before responding?",
     "optional": "What do you want to remember in the moment before you respond?"
   },
   {
@@ -1747,7 +1747,7 @@ const DAYS = [
     "phase": "TURNING TOWARD",
     "phaseDescription": "Self-trust, boundaries, and authentic choice",
     "prompt": "What kind of relationship with yourself makes healthy relationships with others more possible?",
-    "optional": "What does a healthy relationship with yourself make possible in your relationships with others?"
+    "optional": "What becomes possible in other relationships when you are more connected to yourself?"
   },
   {
     "day": 251,
@@ -1817,7 +1817,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What part of yourself becomes more visible when you are having fun?",
-    "optional": "What would it be like to make a little more room for this in your life?"
+    "optional": "What would it be like to make a little more room for that part of you?"
   },
   {
     "day": 261,
@@ -1851,7 +1851,7 @@ const DAYS = [
     "day": 265,
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
-    "prompt": "What relationship qualities help your nervous system feel more at ease?",
+    "prompt": "What relationship qualities help you feel more at ease in your body?",
     "optional": "What relationship qualities help you feel both connected and still yourself?"
   },
   {
@@ -1873,7 +1873,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What part of yourself do you tend to hide in relationships?",
-    "optional": "What would make it safer to let that hidden part be seen?"
+    "optional": "What would make it feel more possible to let that hidden part be seen?"
   },
   {
     "day": 269,
@@ -1999,7 +1999,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What does enough connection look like?",
-    "optional": "What kind of connection feels like enough for you?"
+    "optional": "What tells you that a relationship has enough room for you to stay yourself?"
   },
   {
     "day": 287,
@@ -2132,7 +2132,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What does your own voice sound like when you are not trying to please anyone?",
-    "optional": "What does your own voice sound like when you are not trying to please anyone?"
+    "optional": "What helps you hear your own voice when you are not trying to please anyone?"
   },
   {
     "day": 306,
@@ -2188,7 +2188,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What happens when you let someone care for you without immediately returning the favor?",
-    "optional": "What happens when you let care reach you without immediately returning it?"
+    "optional": "What makes receiving care easier or harder for you?"
   },
   {
     "day": 314,
@@ -2216,7 +2216,7 @@ const DAYS = [
     "phase": "RECONNECTING",
     "phaseDescription": "Desire, values, relationships, and aliveness",
     "prompt": "What kind of connection helps you remain connected to yourself?",
-    "optional": "What kind of connection helps you stay connected to yourself?"
+    "optional": "What does that kind of connection give you room to be?"
   },
   {
     "day": 318,
@@ -2321,7 +2321,7 @@ const DAYS = [
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
     "prompt": "What have you learned about staying connected to yourself while remaining open to other people?",
-    "optional": "What would you like to carry forward from this reflection?"
+    "optional": "What part of staying connected to yourself while staying open to others feels most important to carry forward?"
   },
   {
     "day": 333,
@@ -2334,8 +2334,8 @@ const DAYS = [
     "day": 334,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "What have you learned about the difference between intuition and fear?",
-    "optional": "What helps you tell intuition from fear when both feel strong?"
+    "prompt": "What have you learned about telling the difference between intuition, fear, and the need for more information?",
+    "optional": "What helps you slow down when a strong inner signal arrives?"
   },
   {
     "day": 335,
@@ -2362,7 +2362,7 @@ const DAYS = [
     "day": 338,
     "phase": "BACK TO YOURSELF",
     "phaseDescription": "Integration, choice, and continuing",
-    "prompt": "How do you want to respond when you inevitably get activated again?",
+    "prompt": "How do you want to respond when you get activated again?",
     "optional": "What helps you come back without judging yourself for being activated?"
   },
   {
@@ -2586,7 +2586,7 @@ const app = document.getElementById("app");
 const toast = document.getElementById("toast");
 
 function saveEntries(){ localStorage.setItem(KEY,JSON.stringify(entries)); }
-function showToast(msg){ toast.textContent=msg;toast.classList.add("show");clearTimeout(showToast.t);showToast.t=setTimeout(()=>toast.classList.remove("show"),1800); }
+function showToast(msg,duration=1800){ toast.textContent=msg;toast.classList.add("show");clearTimeout(showToast.t);showToast.t=setTimeout(()=>toast.classList.remove("show"),duration); }
 function day(n){return DAYS[n-1];}
 function phaseForDay(n){return PHASES.find(p=>n>=p.start&&n<=p.end)||PHASES[0];}
 function escapeHtml(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
@@ -2617,6 +2617,7 @@ function updatePageBack(){
   else{el.innerHTML='';el.classList.remove('show');el.removeAttribute('onclick');}
 }
 function render(){
+  if(currentView!=='tool' && breathTimer){clearInterval(breathTimer);breathTimer=null;}
   window.scrollTo({top:0,behavior:'auto'});
   document.querySelectorAll(".bottom-nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===currentView));
   updatePageBack();
@@ -2631,9 +2632,10 @@ function renderHome(){
   const d=day(nextIncomplete());
   app.innerHTML=`
     <section class="hero home-hero">
+      <div class="home-logo-wrap"><img src="brand-logo.png" alt="" class="home-logo"></div>
       <h1>Back To Yourself</h1>
       <p class="quote">This journal does not ask you to be positive. It does not ask you to heal on schedule. It only asks you to meet yourself where you are.</p>
-      <p class="closing-line">Nothing to fix. Nothing to prove. Just notice.</p>
+      <p class="closing-line">Nothing to fix. Nothing to prove. Just notice.</p><p class="small home-choice-note">Skip, repeat, or stop whenever you need to. You never have to write about the trauma itself.</p>
     </section>
     <section class="card phase-card">
       <div class="phase-meta">${escapeHtml(d.phase)} · Day ${d.day}</div>
@@ -2648,7 +2650,7 @@ function renderHome(){
     </section>`;
 }
 function renderJournal(){
-  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">365 undated days</div><h2>Journal</h2><p class="small">Choose any day. Your writing is saved on this device.</p></section><input class="search" id="search" placeholder="Search prompts or your entries…" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" oninput="filterDays(this.value)"><div id="phaseList"></div>`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">365 undated days</div><h2>Journal</h2><p class="small">Choose any day. Your writing is saved on this device. Move forward, repeat an earlier day, or skip around—there is no required pace.</p></section><input class="search" id="search" placeholder="Search prompts or your entries…" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" oninput="filterDays(this.value)"><div id="phaseList"></div>`;
   renderPhaseList(DAYS);
 }
 function renderPhaseList(list){
@@ -2665,7 +2667,7 @@ function filterDays(q){
 }
 function renderTools(){
   const sections=[...new Set(TOOLS.map(t=>t.section))];
-  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Small practices for real moments</div><h2>Tools</h2><p class="small">You don't have to journal every time. Sometimes a few minutes of noticing, breathing, or sorting is enough.</p></section>${sections.map(section=>{const first=TOOLS.find(t=>t.section===section);return `<section class="tool-section"><div class="tool-section-title"><h3>${section}</h3><p>${first.sectionDesc}</p></div><div class="tool-grid">${TOOLS.filter(t=>t.section===section).map(t=>`<button class="tool-card" onclick="openTool('${t.id}')"><span class="tool-card-title">${t.title}</span><span class="tool-card-desc">${t.desc}</span><span class="tool-arrow">${icon("arrow")}</span></button>`).join("")}</div></section>`}).join("")}`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Small practices for real moments</div><h2>Tools</h2><p class="small">You don't have to journal every time. Sometimes a few minutes of noticing, breathing, or sorting is enough. Use what helps; if a practice makes you feel more activated, stop and choose another tool.</p></section>${sections.map(section=>{const first=TOOLS.find(t=>t.section===section);return `<section class="tool-section"><div class="tool-section-title"><h3>${section}</h3><p>${first.sectionDesc}</p></div><div class="tool-grid">${TOOLS.filter(t=>t.section===section).map(t=>`<button class="tool-card" onclick="openTool('${t.id}')"><span class="tool-card-title">${t.title}</span><span class="tool-card-desc">${t.desc}</span><span class="tool-arrow">${icon("arrow")}</span></button>`).join("")}</div></section>`}).join("")}`;
 }
 function openTool(id){currentTool=id;currentView='tool';render();}
 function renderTool(id){
@@ -2675,8 +2677,8 @@ function renderTool(id){
     feet:`<p class="exercise-intro">Let your attention come down toward your feet and the surface beneath you.</p><div class="instruction-list"><p>Feel the surface beneath both feet.</p><p>Notice the weight of your body settling downward.</p><p>Press your feet gently into the floor for three breaths.</p><p>Look around and notice where you are.</p></div><button class="btn" onclick="finishTool('You gave your body a moment of contact and orientation.')">Done</button>`,
     feeling:`<h3>Which feelings are present right now?</h3><p class="tool-subcopy">Tap any that fit. There may be more than one, and you can change your mind.</p><div class="chip-grid feeling-chips">${['sad','anxious','angry','scared','overwhelmed','lonely','numb','guilty','shame','frustrated','disappointed','hopeful','calm','content','grateful','confused','tired','resentful','relieved','tender','uncertain','other'].map(x=>`<button class="chip" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div><h3 class="tool-subheading">How strong does it feel?</h3><p class="tool-subcopy">Tap one that feels closest right now.</p><div class="chip-grid intensity-chips">${['mild','moderate','strong','overwhelming'].map(x=>`<button class="chip" onclick="selectChoice(this)">${x}</button>`).join('')}</div><p class="small center tool-note">You do not have to explain it. Naming it is enough.</p><button class="btn" onclick="finishTool('You noticed what is present without needing to fix it.')">Done</button>`,
     body:`<h3>Where do you notice something in your body?</h3><p class="tool-subcopy">Tap any areas that feel activated, tense, uncomfortable, or different right now.</p><div class="chip-grid body-area-chips">${['chest','throat','jaw','shoulders','belly','hands','head','back','legs','everywhere','nowhere'].map(x=>`<button class="chip" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div><h3 class="tool-subheading">What sensations do you notice?</h3><p class="tool-subcopy">Tap any that fit. There may be more than one.</p><div class="chip-grid sensation-chips">${['tight','heavy','restless','tingling','warm','cold','numb','ache','pressure','fluttery','sore','other'].map(x=>`<button class="chip" onclick="this.classList.toggle('selected')">${x}</button>`).join('')}</div><button class="btn" onclick="finishTool('You listened without demanding an answer.')">Done</button>`,
-    box:`<div class="breath-box"><div id="breathPhase">Ready</div><div class="breath-count" id="breathCount">4</div><p id="breathHint">Inhale for 4 · hold 4 · exhale 4 · hold 4</p></div><button class="btn" id="breathBtn" onclick="startBoxBreathing()">Start</button><p class="small center" id="breathRounds">No need to force your breath. Stop if this feels uncomfortable.</p>`,
-    orient:`<p class="exercise-intro">Let your eyes move slowly. You are not searching for anything special—just allowing your brain to take in the room.</p><div class="instruction-list"><p>Find one color that catches your attention.</p><p>Notice the nearest doorway, window, or exit.</p><p>Find one object that is completely still.</p><p>Look farther away, then closer again.</p><p>Notice one thing that tells you you are safe enough in this moment.</p></div><button class="btn" onclick="finishTool('You oriented to the present moment.')">Done</button>`,
+    box:`<div class="breath-box"><div id="breathPhase">Ready</div><div class="breath-count" id="breathCount">4</div><p id="breathHint">Inhale for 4 · hold 4 · exhale 4 · hold 4</p></div><button class="btn" id="breathBtn" onclick="startBoxBreathing()">Start</button><p class="small center" id="breathRounds">No need to force your breath. If the holds feel uncomfortable, let them go and breathe normally.</p>`,
+    orient:`<p class="exercise-intro">Let your eyes move slowly. You are not searching for anything special—just allowing your brain to take in the room.</p><div class="instruction-list"><p>Find one color that catches your attention.</p><p>Notice the nearest doorway, window, or exit.</p><p>Find one object that is completely still.</p><p>Look farther away, then closer again.</p><p>Notice one thing that helps you know where you are right now.</p></div><button class="btn" onclick="finishTool('You oriented to the present moment.')">Done</button>`,
     pause:`<div class="stepper clean-stepper"><div class="step active"><span>1</span><div><strong>Pause</strong><p>Do you need to respond right now, or can this wait?</p></div></div><div class="step"><span>2</span><div><strong>Name it</strong><p>What are you feeling? Just name it.</p></div></div><div class="step"><span>3</span><div><strong class="step-label-story">Separate event from story</strong><p>What actually happened? What meaning are you adding?</p></div></div><div class="step"><span>4</span><div><strong>Choose</strong><p>If you respond, what would be honest without defending, explaining, fixing, or pleasing?</p></div></div></div><button class="btn" onclick="finishTool('You made room between the moment and your response.')">Done</button>`,
     want:`<p class="exercise-intro">Hold the situation or decision in your mind. You do not need to explain it or decide anything yet.</p><p class="small">Now ask yourself: <strong>What do I want?</strong></p><div class="want-grid"><button onclick="chooseWant(this,'want')">I want this</button><button onclick="chooseWant(this,'dont')">I don't want this</button><button onclick="chooseWant(this,'unsure')">I don't know yet</button></div><p class="small center tool-note" id="wantHint">There is no wrong answer. Notice which response feels most like yours right now.</p><button class="btn" onclick="finishTool('You listened for your own preference without forcing a decision.')">Done</button>`
   };
@@ -2696,12 +2698,12 @@ function startBoxBreathing(){
   tick();breathTimer=setInterval(tick,1000);
 }
 function renderMore(){
-  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Your space</div><h2>More</h2></section><section class="card"><h3>Privacy</h3><p class="small">Your journal entries are stored in this browser on this device. They are not sent to a server by this app.</p><p class="small">For safety, export a backup before clearing browser data or changing devices.</p></section><section class="card"><h3>Backup your journal</h3><p class="small">Export creates a JSON file containing your entries. Keep it somewhere private.</p><div class="row"><button class="btn" onclick="exportData()">Export entries</button><button class="btn secondary" onclick="document.getElementById('importFile').click()">Import backup</button></div><input id="importFile" type="file" accept=".json,application/json" style="display:none" onchange="importData(event)"></section><section class="card"><h3>Reset</h3><p class="small">This permanently removes the entries saved in this browser. Export first if you want a backup.</p><button class="btn secondary" onclick="resetEntries()">Delete all entries</button></section><section class="card"><h3>About</h3><p class="small">Back To Yourself is an undated 365-day guided journal. No streaks. No forced positivity. No healing schedule.</p></section>`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">Your space</div><h2>More</h2></section><section class="card"><h3>Privacy</h3><p class="small">Your journal entries are stored in this browser on this device. They are not sent to a server by this app.</p><p class="small">For safety, export a backup before clearing browser data or changing devices.</p><p class="small">This journal is a companion for reflection and self-connection. It is not a substitute for therapy or other care when you need more support.</p></section><section class="card"><h3>Backup your journal</h3><p class="small">Export creates a JSON file containing your entries. Keep it somewhere private.</p><div class="row"><button class="btn" onclick="exportData()">Export entries</button><button class="btn secondary" onclick="document.getElementById('importFile').click()">Import backup</button></div><input id="importFile" type="file" accept=".json,application/json" style="display:none" onchange="importData(event)"></section><section class="card"><h3>Reset</h3><p class="small">This permanently removes the entries saved in this browser. Export first if you want a backup.</p><button class="btn secondary" onclick="resetEntries()">Delete all entries</button></section><section class="card"><h3>About</h3><p class="small">Back To Yourself is an undated 365-day guided journal. No streaks. No forced positivity. No healing schedule.</p></section>`;
 }
-function openDay(n){currentDay=Math.min(365,Math.max(1,n));localStorage.setItem('bty-current-day',currentDay);currentView='day';renderDay();}
+function openDay(n){currentDay=Math.min(365,Math.max(1,n));localStorage.setItem('bty-current-day',currentDay);currentView='day';render();}
 function renderDay(){
   const d=day(currentDay),e=entries[currentDay]||{},savedDate=formatEntryDate(e.date),dayLabel=savedDate?`Day ${d.day} · ${savedDate}`:`Day ${d.day}`;
-  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div><div class="day-number">${escapeHtml(dayLabel)}</div><p class="small">Take this at your own pace.</p></section><section class="card"><h3>Today’s invitation</h3><p class="prompt">${escapeHtml(d.prompt)}</p><label for="response">What would you like to write?</label><textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||'')}</textarea>${d.optional?`<div class="optional-card"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||'')}</textarea></div>`:''}<label for="date">Date (optional)</label><input id="date" type="date" value="${escapeHtml(e.date||'')}"><div class="save-status" id="saveStatus"></div><div class="navrow"><button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?'disabled':''}>← Previous</button><button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?'disabled':''}>Next →</button></div></section>`;
+  app.innerHTML=`<section class="hero compact-hero"><div class="eyebrow">${escapeHtml(d.phase)} · ${escapeHtml(d.phaseDescription)}</div><div class="day-number">${escapeHtml(dayLabel)}</div><p class="small">Take this at your own pace. You can stop, skip it, or come back later.</p></section><section class="card"><h3>Today’s invitation</h3><p class="prompt">${escapeHtml(d.prompt)}</p><label for="response">What would you like to write?</label><textarea id="response" placeholder="Write what feels useful. You don't have to make sense of it.">${escapeHtml(e.response||'')}</textarea>${d.optional?`<div class="optional-card"><h3>If you have room</h3><p class="optional">${escapeHtml(d.optional)}</p><label for="optionalResponse">Optional reflection</label><textarea id="optionalResponse" placeholder="Only if you have room…">${escapeHtml(e.optionalResponse||'')}</textarea></div>`:''}<label for="date">Date (optional)</label><input id="date" type="date" value="${escapeHtml(e.date||'')}"><div class="save-status" id="saveStatus"></div><div class="navrow"><button class="btn secondary" onclick="openDay(${currentDay-1})" ${currentDay===1?'disabled':''}>← Previous</button><button class="btn" onclick="openDay(${currentDay+1})" ${currentDay===365?'disabled':''}>Next →</button></div></section>`;
   ['response','optionalResponse','date'].forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener('input',queueSave);});
 }
 function queueSave(){const status=document.getElementById('saveStatus');if(status)status.textContent='Saving…';clearTimeout(saveTimer);saveTimer=setTimeout(()=>{const r=document.getElementById('response')?.value||'',o=document.getElementById('optionalResponse')?.value||'',date=document.getElementById('date')?.value||'';entries[currentDay]={response:r,optionalResponse:o,date,updatedAt:new Date().toISOString()};saveEntries();if(status)status.textContent='Saved on this device.';},350);}

@@ -163,3 +163,10 @@ label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.09em
 }
 
 @media(max-width:430px){.breath-box p{font-size:12px;}}
+
+/* Brand mark refinement */
+.home-logo-wrap{text-align:center;margin:0 auto 8px;width:100%;}
+.home-logo{display:block;width:min(390px,82vw);height:auto;margin:0 auto;}
+@media(max-width:430px){.home-logo{width:min(330px,88vw);}}
+
+.home-choice-note{text-align:center;margin-top:10px;}
