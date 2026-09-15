@@ -1,4 +1,4 @@
-const CACHE="back-to-yourself-v34";
+const CACHE="back-to-yourself-v35";
 const ASSETS=["./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./icon.png","./brand-logo.png"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
