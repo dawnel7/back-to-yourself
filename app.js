@@ -2713,5 +2713,5 @@ function resetEntries(){if(confirm('Delete all saved journal entries from this d
 
 document.querySelectorAll('.bottom-nav button').forEach(b=>b.addEventListener('click',()=>{currentView=b.dataset.view;currentTool=null;render();}));
 document.querySelector('.brand').addEventListener('click',()=>{currentView='home';render();});
-if('serviceWorker' in navigator)navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('service-worker.js').then(reg=>reg.update()).catch(()=>{});
 render();
